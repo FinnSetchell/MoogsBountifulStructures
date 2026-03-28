@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "#c:is_jungle",
+      "required": false
+    },
+    {
+      "id": "#mbs:pine_wood",
+      "required": false
+    }
+  ]
+}

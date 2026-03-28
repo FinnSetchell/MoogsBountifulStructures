@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "#c:is_magical",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mystic_grove",
+      "required": false
+    }
+  ]
+}
