@@ -1,0 +1,28 @@
+# gradle
+build
+.gradle
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+eclipse
+
+# minecraft run dirs
+run
+run-data
+
+# misc
+repo
+.kotlin
+.DS_Store
