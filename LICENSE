@@ -1,3 +1,26 @@
+Copyright (C) 2026 FinnSetchell (FinnDog). All rights reserved where applicable.
+
+-------------------------------------------------------------------------------
+STRUCTURE FILES — ALL RIGHTS RESERVED
+-------------------------------------------------------------------------------
+
+The structure NBT files located under:
+    src/main/resources/data/mbs/structure/
+
+are NOT covered by the GNU Lesser General Public License below. These files
+are proprietary assets and are All Rights Reserved (c) 2026 FinnSetchell.
+
+You may NOT copy, redistribute, modify, or use these structure files in any
+other project, pack, or mod without explicit written permission from the author.
+
+-------------------------------------------------------------------------------
+ALL OTHER PROJECT FILES — GNU LESSER GENERAL PUBLIC LICENSE v3
+-------------------------------------------------------------------------------
+
+The remainder of this project (build scripts, configuration, metadata, and any
+non-structure assets) is licensed under the GNU Lesser General Public License
+as published by the Free Software Foundation, version 3 of the License.
+
                    GNU LESSER GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
