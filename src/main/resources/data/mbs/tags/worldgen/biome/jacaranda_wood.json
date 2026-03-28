@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "biomesoplenty:jacaranda_glade",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:lavender_field",
+      "required": false
+    }
+  ]
+}

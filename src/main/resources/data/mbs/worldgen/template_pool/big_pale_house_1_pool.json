@@ -1,0 +1,15 @@
+{
+  "name": "mbs:big_pale_house_1_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty",
+        "location": "mbs:big_pale_house_1"
+      }
+    }
+  ]
+}

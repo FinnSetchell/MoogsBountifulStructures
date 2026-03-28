@@ -1,0 +1,24 @@
+{
+  "name": "mbs:magic_tree_patch_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty",
+        "location": "mbs:magic_tree_patch"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty",
+        "location": "mbs:magic_tree_patch_2"
+      }
+    }
+  ]
+}

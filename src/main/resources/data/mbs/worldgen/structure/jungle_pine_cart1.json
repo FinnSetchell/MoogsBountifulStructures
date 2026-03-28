@@ -1,0 +1,17 @@
+{
+  "type": "moogs_structures:moogs_structures_generic_jigsaw_structure",
+  "start_pool": "mbs:jungle_pine_cart1_pool",
+  "size": 1,
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "start_height": {
+    "absolute": 0
+  },
+  "terrain_adaptation": "beard_thin",
+  "burying_type": "LOWEST_CORNER",
+  "cannot_spawn_in_liquid": true,
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "terrain_height_radius_check": 1,
+  "allowed_terrain_height_range": 2,
+  "biomes": "#mbs:gray_tents"
+}

@@ -1,0 +1,24 @@
+{
+  "values": [
+    {
+      "id": "biomesoplenty:seasonal_forest",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:pumpkin_patch",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:maple_woods",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:tundra",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:bog",
+      "required": false
+    }
+  ]
+}

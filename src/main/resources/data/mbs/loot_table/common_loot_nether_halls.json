@@ -1,0 +1,330 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_wart",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:name_tag",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_sword",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_horse_armor",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 2,
+        "max": 4,
+        "type": "minecraft:uniform"
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5,
+                "min": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "weight": 18,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3,
+                "min": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 9,
+                "min": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherrack",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 9,
+                "min": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2,
+                "min": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone_dust",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8,
+                "min": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3,
+                "min": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6,
+                "min": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lava_bucket",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4,
+                "min": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cracked_nether_bricks",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4,
+                "min": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_helmet",
+          "weight": 1,
+          "quality": 1,
+          "functions": [],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance_with_enchanted_bonus",
+              "unenchanted_chance": 1,
+              "enchanted_chance": {
+                "type": "minecraft:fraction",
+                "numerator": 2,
+                "denominator": 2
+              },
+              "enchantment": "minecraft:protection"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:air",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8,
+                "min": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone_meal",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4,
+                "min": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_shovel",
+          "weight": 5,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {},
+              "add": true,
+              "conditions": []
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:projectile_protection": 3,
+                "minecraft:mending": 0
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4,
+                "min": 1
+              }
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_wart",
+          "weight": 15,
+          "quality": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 16,
+                "min": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:chests/abandoned_mineshaft"
+}

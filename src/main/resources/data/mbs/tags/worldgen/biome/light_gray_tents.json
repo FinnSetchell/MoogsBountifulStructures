@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "#c:is_dead",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dead_forest",
+      "required": false
+    }
+  ]
+}
