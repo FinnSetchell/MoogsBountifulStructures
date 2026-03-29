@@ -1,0 +1,21 @@
+{
+  "structures": [
+    {
+      "structure": "mbs:dead_wood_lamp",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "moogs_structures:advanced_random_spread",
+    "spacing": 27,
+    "separation": 16,
+    "salt": 212977225,
+    "spread_type": "linear",
+    "frequency": 1,
+    "locate_offset": [
+      0,
+      0,
+      0
+    ]
+  }
+}

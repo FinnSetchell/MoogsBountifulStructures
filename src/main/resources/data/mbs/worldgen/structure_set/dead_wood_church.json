@@ -1,0 +1,21 @@
+{
+  "structures": [
+    {
+      "structure": "mbs:dead_wood_church",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "moogs_structures:advanced_random_spread",
+    "spacing": 32,
+    "separation": 24,
+    "salt": 692851412,
+    "spread_type": "linear",
+    "frequency": 1,
+    "locate_offset": [
+      0,
+      0,
+      0
+    ]
+  }
+}

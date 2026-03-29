@@ -1,0 +1,21 @@
+{
+  "structures": [
+    {
+      "structure": "mbs:building_remains",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "moogs_structures:advanced_random_spread",
+    "spacing": 14,
+    "separation": 8,
+    "salt": 675570141,
+    "spread_type": "linear",
+    "frequency": 1,
+    "locate_offset": [
+      0,
+      0,
+      0
+    ]
+  }
+}

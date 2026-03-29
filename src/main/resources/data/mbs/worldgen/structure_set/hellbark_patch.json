@@ -1,0 +1,21 @@
+{
+  "structures": [
+    {
+      "structure": "mbs:hellbark_patch",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "moogs_structures:advanced_random_spread",
+    "spacing": 17,
+    "separation": 7,
+    "salt": 571666491,
+    "spread_type": "linear",
+    "frequency": 1,
+    "locate_offset": [
+      0,
+      0,
+      0
+    ]
+  }
+}

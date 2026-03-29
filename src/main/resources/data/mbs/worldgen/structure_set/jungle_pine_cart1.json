@@ -1,0 +1,21 @@
+{
+  "structures": [
+    {
+      "structure": "mbs:jungle_pine_cart1",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "moogs_structures:advanced_random_spread",
+    "spacing": 27,
+    "separation": 19,
+    "salt": 978120816,
+    "spread_type": "linear",
+    "frequency": 1,
+    "locate_offset": [
+      0,
+      0,
+      0
+    ]
+  }
+}
