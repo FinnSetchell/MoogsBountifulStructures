@@ -1,0 +1,21 @@
+{
+  "structures": [
+    {
+      "structure": "mbs:rock_pile",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "moogs_structures:advanced_random_spread",
+    "spacing": 15,
+    "separation": 5,
+    "salt": 645864810,
+    "spread_type": "linear",
+    "frequency": 1,
+    "locate_offset": [
+      0,
+      0,
+      0
+    ]
+  }
+}

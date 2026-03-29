@@ -1,0 +1,21 @@
+{
+  "structures": [
+    {
+      "structure": "mbs:log_pile_jacaranda",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "moogs_structures:advanced_random_spread",
+    "spacing": 15,
+    "separation": 5,
+    "salt": 974310378,
+    "spread_type": "linear",
+    "frequency": 1,
+    "locate_offset": [
+      0,
+      0,
+      0
+    ]
+  }
+}

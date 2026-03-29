@@ -1,0 +1,21 @@
+{
+  "structures": [
+    {
+      "structure": "mbs:cobweb_stilt_house",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "moogs_structures:advanced_random_spread",
+    "spacing": 20,
+    "separation": 14,
+    "salt": 451252647,
+    "spread_type": "linear",
+    "frequency": 1,
+    "locate_offset": [
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "structures": [
+    {
+      "structure": "mbs:plainsandgrass_gold_pile",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "moogs_structures:advanced_random_spread",
+    "spacing": 28,
+    "separation": 17,
+    "salt": 130373503,
+    "spread_type": "linear",
+    "frequency": 1,
+    "locate_offset": [
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "structures": [
+    {
+      "structure": "mbs:plainsandgrass_pine_cart",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "moogs_structures:advanced_random_spread",
+    "spacing": 26,
+    "separation": 16,
+    "salt": 505105110,
+    "spread_type": "linear",
+    "frequency": 1,
+    "locate_offset": [
+      0,
+      0,
+      0
+    ]
+  }
+}

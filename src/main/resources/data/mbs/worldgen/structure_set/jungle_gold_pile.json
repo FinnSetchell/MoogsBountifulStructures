@@ -1,0 +1,21 @@
+{
+  "structures": [
+    {
+      "structure": "mbs:jungle_gold_pile",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "moogs_structures:advanced_random_spread",
+    "spacing": 38,
+    "separation": 27,
+    "salt": 450610016,
+    "spread_type": "linear",
+    "frequency": 1,
+    "locate_offset": [
+      0,
+      0,
+      0
+    ]
+  }
+}

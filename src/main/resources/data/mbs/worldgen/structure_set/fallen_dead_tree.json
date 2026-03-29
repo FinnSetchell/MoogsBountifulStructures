@@ -1,0 +1,21 @@
+{
+  "structures": [
+    {
+      "structure": "mbs:fallen_dead_tree",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "moogs_structures:advanced_random_spread",
+    "spacing": 21,
+    "separation": 13,
+    "salt": 353866764,
+    "spread_type": "linear",
+    "frequency": 1,
+    "locate_offset": [
+      0,
+      0,
+      0
+    ]
+  }
+}
