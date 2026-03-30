@@ -2,9 +2,9 @@
 
 ---
 
-[![Discord](https://img.shields.io/discord/869218732650688543?color=9033af&label=DISCORD&style=for-the-badge)](https://discord.com/invite/S5nffJbuvA) [![](https://img.shields.io/badge/TOTAL-80%20STRUCTURES-9033AF?style=for-the-badge)](https://github.com/FinnSetchell/MoogsVanillaStructuresV2/wiki) [![GitHub Sponsors](https://img.shields.io/github/sponsors/finnsetchell?color=9033af&style=for-the-badge)](https://github.com/sponsors/FinnSetchell) [![Twitter Follow](https://img.shields.io/twitter/follow/MoogsMods?color=9033af&style=for-the-badge)](https://twitter.com/MoogsMods)
+[![Discord](https://img.shields.io/discord/869218732650688543?color=804e50&label=DISCORD&style=for-the-badge)](https://discord.com/invite/S5nffJbuvA) [![](https://img.shields.io/badge/TOTAL-80%20STRUCTURES-804e50?style=for-the-badge)](https://github.com/FinnSetchell/MoogsVanillaStructuresV2/wiki) [![GitHub Sponsors](https://img.shields.io/github/sponsors/finnsetchell?color=804e50&style=for-the-badge)](https://github.com/sponsors/FinnSetchell) [![Twitter Follow](https://img.shields.io/twitter/follow/MoogsMods?color=804e50&style=for-the-badge)](https://twitter.com/MoogsMods)
 
-[![](https://img.shields.io/badge/My-projects-9033af?style=for-the-badge&logo=curseforge)](https://www.curseforge.com/members/finndog_123/projects)
+[![](https://img.shields.io/badge/My-projects-804e50?style=for-the-badge&logo=curseforge)](https://www.curseforge.com/members/finndog_123/projects)
 
 ---
 
