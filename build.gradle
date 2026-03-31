@@ -14,6 +14,8 @@ def modHomepage = project.findProperty('modHomepage') as String
 def modSources = project.findProperty('modSources') as String
 def modIssues = project.findProperty('modIssues') as String
 def structureLibVersionRange = project.findProperty('structureLibVersionRange') as String
+def publishingDisplayName = project.findProperty('publishingDisplayName') as String
+def isDryRun = true
 
 repositories {
     mavenCentral()
@@ -68,7 +70,7 @@ publishMods {
     maxRetries = 3
 
     // When dry run is enabled the release assets will be saved to the build directory for testing.
-    dryRun = false
+    dryRun = isDryRun
 
     modrinth {
         accessToken = providers.environmentVariable('MODRINTH_API_KEY')
@@ -97,14 +99,15 @@ publishMods {
             end = project.findProperty('publishMcEnd')
         }
         requires("moogs-structure-lib")
-        requires("220318")
+        requires("biomes-o-plenty")
     }
 
     discord {
         webhookUrl = providers.environmentVariable('DISCORD_WEBHOOK')
         dryRunWebhookUrl = providers.environmentVariable('DISCORD_WEBHOOK_DRY_RUN').orElse('')
         username = "Moog's Mods"
-        
+        avatarUrl = (project.findProperty('discordAvatarUrl') ?: '')
+
         content = changelog.map { text ->
             def changelogBody = text.trim()
             
@@ -114,8 +117,8 @@ publishMods {
             def mcEnd = project.findProperty('publishMcEnd')
             def versionRange = mcStart == mcEnd ? mcStart : "$mcStart - $mcEnd"
             
-            """## 🎉 **${modName} ${project.version}** has been released!
-            
+            """## **${publishingDisplayName} ${project.version}** has been released! 🎉
+
 **${prefix} ${project.version}-${mcVersion} ${suffix}**
 Versions - ${versionRange}
 
@@ -132,7 +135,28 @@ ${changelogBody}
     }
 }
 
-// Ensure the jar is built before publishing
 tasks.named('publishMods').configure {
     dependsOn tasks.named('jar')
+}
+
+// Send banner message before the Discord embed
+tasks.named('announceDiscord').configure {
+    doFirst {
+        def webhookUrl = isDryRun
+            ? System.getenv('DISCORD_WEBHOOK_DRY_RUN')
+            : System.getenv('DISCORD_WEBHOOK')
+        def bannerUrl = project.findProperty('discordBannerUrl') as String
+        def avatarUrl = project.findProperty('discordAvatarUrl') as String
+        if (!bannerUrl) return
+        if (!webhookUrl) {
+            logger.warn("Discord banner skipped: {} is not set", isDryRun ? 'DISCORD_WEBHOOK_DRY_RUN' : 'DISCORD_WEBHOOK')
+            return
+        }
+        def connection = new URL(webhookUrl).openConnection()
+        connection.requestMethod = 'POST'
+        connection.doOutput = true
+        connection.setRequestProperty('Content-Type', 'application/json')
+        connection.outputStream.withWriter { it << """{"username":"Moog's Mods","avatar_url":"${avatarUrl}","content":"<@&1466012771379581039>\\n${bannerUrl}","allowed_mentions":{"parse":[],"roles":["1466012771379581039"]}}""" }
+        connection.responseCode
+    }
 }
