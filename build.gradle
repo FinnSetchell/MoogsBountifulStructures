@@ -78,6 +78,9 @@ publishMods {
         requires {
             slug = "moogs-structure-lib"
         }
+        requires {
+            slug = "biomes-o-plenty"
+        }
     }
 
     curseforge {
@@ -91,6 +94,7 @@ publishMods {
             end = project.findProperty('publishMcEnd')
         }
         requires("moogs-structure-lib")
+        requires("220318")
     }
 
     discord {

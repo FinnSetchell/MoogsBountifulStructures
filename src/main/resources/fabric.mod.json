@@ -17,6 +17,7 @@
     "environment": "*",
     "depends": {
       "fabric-resource-loader-v0": "*",
-      "moogs_structures": "*"
+      "moogs_structures": "*",
+      "biomesoplenty": "*"
     }
   }

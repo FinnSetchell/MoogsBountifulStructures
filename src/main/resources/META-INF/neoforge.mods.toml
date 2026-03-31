@@ -12,3 +12,10 @@ mandatory = true
 versionRange = "${structure_lib_version_range}"
 ordering = "NONE"
 side = "BOTH"
+
+[[dependencies.mbs]]
+modId = "biomesoplenty"
+mandatory = true
+versionRange = "*"
+ordering = "NONE"
+side = "BOTH"
