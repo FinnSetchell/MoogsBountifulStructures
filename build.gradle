@@ -43,11 +43,14 @@ tasks.named('jar') {
 
 // Auto publishing configuration
 def changeLogFile = rootProject.file('CHANGELOG.md')
-def changelogText = changeLogFile.exists() ? changeLogFile.getText('UTF-8') : ''
+def changelogFull = changeLogFile.exists() ? changeLogFile.getText('UTF-8') : ''
+def sectionMatcher = ~/(?s)## \[${version}\] - \d{4}-\d{2}-\d{2}\r?\n(.*?)(?=\r?\n---|\r?\n## \[|\z)/
+def sectionMatch = sectionMatcher.matcher(changelogFull)
+def changelogLatest = sectionMatch.find() ? sectionMatch.group(1).trim() : changelogFull
 
 publishMods {
     file = tasks.named('jar').flatMap { it.archiveFile }
-    changelog = changelogText
+    changelog = changelogLatest
 
     // Release metadata
     version = project.version.toString()
@@ -103,9 +106,7 @@ publishMods {
         username = "Moog's Mods"
         
         content = changelog.map { text ->
-            def changelogBody = text.replaceFirst(/(?i)^#\s*Changelog\s*\n?/, '')
-                                    .replaceFirst(/^\d+\.\d+\.\d+\s*\n?/, '')
-                                    .trim()
+            def changelogBody = text.trim()
             
             def prefix = project.findProperty('publishDisplayPrefix')
             def suffix = project.findProperty('publishDisplaySuffix')
