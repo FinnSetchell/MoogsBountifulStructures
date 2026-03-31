@@ -15,7 +15,7 @@ def modSources = project.findProperty('modSources') as String
 def modIssues = project.findProperty('modIssues') as String
 def structureLibVersionRange = project.findProperty('structureLibVersionRange') as String
 def publishingDisplayName = project.findProperty('publishingDisplayName') as String
-def isDryRun = true
+def isDryRun = false
 
 repositories {
     mavenCentral()
