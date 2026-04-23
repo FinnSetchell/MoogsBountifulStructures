@@ -1,6 +1,10 @@
 {
   "values": [
     {
+      "id": "#forge:is_jungle",
+      "required": false
+    },
+    {
       "id": "#c:is_jungle",
       "required": false
     },

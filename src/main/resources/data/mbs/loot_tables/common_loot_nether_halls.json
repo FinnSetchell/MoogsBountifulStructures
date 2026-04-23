@@ -26,8 +26,13 @@
           "quality": 1,
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
-              "options": "#minecraft:on_random_loot"
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
             }
           ]
         },
@@ -218,14 +223,9 @@
           "functions": [],
           "conditions": [
             {
-              "condition": "minecraft:random_chance_with_enchanted_bonus",
-              "unenchanted_chance": 1,
-              "enchanted_chance": {
-                "type": "minecraft:fraction",
-                "numerator": 2,
-                "denominator": 2
-              },
-              "enchantment": "minecraft:protection"
+              "condition": "minecraft:random_chance_with_looting",
+              "chance": 1,
+              "looting_multiplier": 0.1
             }
           ]
         }

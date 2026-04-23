@@ -32,16 +32,15 @@
           "quality": 5,
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
-              "options": [
-                "minecraft:unbreaking",
-                "minecraft:power",
-                "minecraft:infinity",
-                "minecraft:punch",
-                "minecraft:flame"
-              ],
+              "function": "minecraft:enchant_with_levels",
               "only_compatible": true,
-              "conditions": []
+              "conditions": [],
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
             },
             {
               "function": "minecraft:set_damage",
@@ -53,8 +52,13 @@
               }
             },
             {
-              "function": "minecraft:enchant_randomly",
-              "options": "#minecraft:on_random_loot"
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
             }
           ],
           "conditions": []
@@ -152,15 +156,13 @@
           "name": "minecraft:golden_chestplate",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
-              "options": [
-                "minecraft:thorns",
-                "minecraft:mending",
-                "minecraft:protection",
-                "minecraft:fire_protection",
-                "minecraft:fire_protection",
-                "minecraft:blast_protection"
-              ]
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
             },
             {
               "function": "minecraft:set_count",
@@ -168,8 +170,13 @@
               "count": 1
             },
             {
-              "function": "minecraft:enchant_randomly",
-              "options": "#minecraft:on_random_loot"
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
             }
           ]
         },
@@ -183,8 +190,13 @@
               "count": 1
             },
             {
-              "function": "minecraft:enchant_randomly",
-              "options": "#minecraft:on_random_loot"
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
             }
           ]
         },
@@ -198,8 +210,13 @@
               "count": 1
             },
             {
-              "function": "minecraft:enchant_randomly",
-              "options": "#minecraft:on_random_loot"
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
             }
           ]
         },
@@ -213,8 +230,13 @@
               "count": 1
             },
             {
-              "function": "minecraft:enchant_randomly",
-              "options": "#minecraft:on_random_loot"
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
             }
           ]
         },
@@ -228,8 +250,13 @@
               "count": 1
             },
             {
-              "function": "minecraft:enchant_randomly",
-              "options": "#minecraft:on_random_loot"
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
             }
           ]
         }

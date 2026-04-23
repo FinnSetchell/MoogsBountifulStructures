@@ -1,6 +1,10 @@
 {
   "values": [
     {
+      "id": "#forge:is_magical",
+      "required": false
+    },
+    {
       "id": "#c:is_magical",
       "required": false
     },

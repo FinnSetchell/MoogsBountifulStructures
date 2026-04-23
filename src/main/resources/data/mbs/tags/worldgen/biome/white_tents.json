@@ -1,6 +1,10 @@
 {
   "values": [
     {
+      "id": "#forge:is_plains",
+      "required": false
+    },
+    {
       "id": "#c:is_plains",
       "required": false
     },
@@ -9,7 +13,7 @@
       "required": false
     },
     {
-      "id":"#mbs:maple_wood",
+      "id": "#mbs:maple_wood",
       "required": false
     }
   ]

@@ -1,7 +1,15 @@
 {
   "values": [
     {
+      "id": "#forge:is_forest",
+      "required": false
+    },
+    {
       "id": "#c:is_forest",
+      "required": false
+    },
+    {
+      "id": "#forge:is_plains",
       "required": false
     },
     {
@@ -9,7 +17,15 @@
       "required": false
     },
     {
+      "id": "#forge:is_desert",
+      "required": false
+    },
+    {
       "id": "#c:is_desert",
+      "required": false
+    },
+    {
+      "id": "#forge:is_taiga",
       "required": false
     },
     {
@@ -17,11 +33,23 @@
       "required": false
     },
     {
+      "id": "#forge:is_jungle",
+      "required": false
+    },
+    {
       "id": "#c:is_jungle",
       "required": false
     },
     {
+      "id": "#forge:is_savanna",
+      "required": false
+    },
+    {
       "id": "#c:is_savanna",
+      "required": false
+    },
+    {
+      "id": "#forge:is_snowy",
       "required": false
     },
     {
