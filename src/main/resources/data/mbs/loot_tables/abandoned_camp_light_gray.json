@@ -3,14 +3,15 @@
   "pools": [
     {
       "rolls": {
-        "min": 4,
-        "max": 8
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 6
       },
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:bone",
-          "weight": 25,
+          "name": "minecraft:light_gray_wool",
+          "weight": 20,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -23,35 +24,94 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:stick",
-          "weight": 20,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 4,
-                "max": 12
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:string",
+          "name": "minecraft:coal",
           "weight": 15,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2,
-                "max": 5
+                "min": 3,
+                "max": 7
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:dead_bush",
+          "name": "minecraft:rabbit_hide",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bowl",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.3,
+                "max": 0.8
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lantern",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:compass",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 15
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
           "weight": 15,
           "functions": [
             {
@@ -62,33 +122,11 @@
               }
             }
           ]
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 1,
-        "max": 3
-      },
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_ingot",
-          "weight": 12,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:gold_nugget",
-          "weight": 18,
+          "weight": 20,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -101,61 +139,17 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:glass_bottle",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:clay_ball",
-          "weight": 15,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
-                "max": 6
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_shovel",
+          "name": "minecraft:flint_and_steel",
           "weight": 10,
           "functions": [
             {
-              "function": "minecraft:enchant_randomly"
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.4,
+                "max": 0.9
+              }
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:shears",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:enchanted_book",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:empty",
-          "weight": 10
         }
       ]
     }

@@ -9,13 +9,6 @@
     "type": "moogs_structures:advanced_random_spread",
     "spacing": 15,
     "separation": 5,
-    "salt": 290942754,
-    "spread_type": "linear",
-    "frequency": 1,
-    "locate_offset": [
-      0,
-      0,
-      0
-    ]
+    "salt": 290942754
   }
 }
