@@ -10,6 +10,7 @@
         "processors": "minecraft:empty",
         "location": "mbs:big_pale_house_1",
         "locations": {
+          "1.20-1.20.4": "mbs:big_pale_house_1",
           "1.20.5-1.20.6": "mbs:1_20_5/big_pale_house_1"
         }
       }

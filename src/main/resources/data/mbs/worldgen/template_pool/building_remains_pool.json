@@ -10,6 +10,7 @@
         "processors": "minecraft:empty",
         "location": "mbs:building_remains",
         "locations": {
+          "1.20-1.20.4": "mbs:building_remains",
           "1.20.5-1.20.6": "mbs:1_20_5/building_remains"
         }
       }

@@ -10,6 +10,7 @@
         "processors": "minecraft:empty",
         "location": "mbs:dead_pine_cart_2",
         "locations": {
+          "1.20-1.20.4": "mbs:dead_pine_cart_2",
           "1.20.5-1.20.6": "mbs:1_20_5/dead_pine_cart_2"
         }
       }
