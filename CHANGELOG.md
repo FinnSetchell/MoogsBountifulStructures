@@ -2,6 +2,13 @@
 
 ---
 
+## [1.0.2] - 2026-04-27
+
+### Fixed
+- fixed armor stand entity structures not spawning due to mismatched nbt filenames in template pool
+
+---
+
 ## [1.0.1] - 2026-03-31
 
 ### Added

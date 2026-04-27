@@ -3,7 +3,7 @@
     {
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "location": "mbs:entities/armor_stands_1",
+        "location": "mbs:entities/armor_stand_1",
         "processors": {
           "processors": []
         },
@@ -14,7 +14,7 @@
     {
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "location": "mbs:entities/armor_stands_2",
+        "location": "mbs:entities/armor_stand_2",
         "processors": {
           "processors": []
         },
@@ -25,7 +25,7 @@
     {
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "location": "mbs:entities/armor_stands_3",
+        "location": "mbs:entities/armor_stand_3",
         "processors": {
           "processors": []
         },
