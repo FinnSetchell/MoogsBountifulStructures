@@ -8,7 +8,6 @@
       },
       "entries": [
         {
-          "type": "minecraft:item",
           "name": "minecraft:bread",
           "weight": 20,
           "functions": [
@@ -19,7 +18,8 @@
                 "max": 4
               }
             }
-          ]
+          ],
+          "type": "minecraft:item"
         },
         {
           "type": "minecraft:item",
