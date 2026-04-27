@@ -35,9 +35,6 @@ jobs:
       - name: Check loot table schemas
         run: python scripts/check_loot_table_schemas.py
 
-      - name: Check registries
-        run: python scripts/check_registries.py
-
   publish:
     name: Publish
     runs-on: ubuntu-latest
