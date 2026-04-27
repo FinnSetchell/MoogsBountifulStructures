@@ -21,7 +21,7 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install nbtlib
+        run: pip install nbtlib requests jsonschema
 
       - name: Check NBT integrity
         run: python scripts/nbt_check.py
@@ -31,6 +31,12 @@ jobs:
 
       - name: Check data integrity
         run: python scripts/check_data_integrity.py
+
+      - name: Check loot table schemas
+        run: python scripts/check_loot_table_schemas.py
+
+      - name: Check registries
+        run: python scripts/check_registries.py
 
   publish:
     name: Publish
