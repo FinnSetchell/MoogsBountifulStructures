@@ -1,75 +1,27 @@
-![banner](https://www.bisecthosting.com/images/CF/MVS/BH_NU_HEADER.png)
+![banner](https://tools.moogsmods.com/api/img/images/602d3bf328184e8aabe3d8eba918931c.png)
 
----
+[![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D8LKA5N)
 
-[![Discord](https://img.shields.io/discord/869218732650688543?color=804e50&label=DISCORD&style=for-the-badge)](https://discord.com/invite/S5nffJbuvA) [![](https://img.shields.io/badge/TOTAL-80%20STRUCTURES-804e50?style=for-the-badge)](https://github.com/FinnSetchell/MoogsVanillaStructuresV2/wiki) [![GitHub Sponsors](https://img.shields.io/github/sponsors/finnsetchell?color=804e50&style=for-the-badge)](https://github.com/sponsors/FinnSetchell) [![Twitter Follow](https://img.shields.io/twitter/follow/MoogsMods?color=804e50&style=for-the-badge)](https://twitter.com/MoogsMods)
+[![Discord](https://img.shields.io/discord/869218732650688543?color=6f3c5b&label=DISCORD&style=for-the-badge)](https://discord.com/invite/S5nffJbuvA)
 
-[![](https://img.shields.io/badge/My-projects-804e50?style=for-the-badge&logo=curseforge)](https://www.curseforge.com/members/finndog_123/projects)
+[![My projects](https://img.shields.io/badge/CurseForge-projects-6f3c5b?style=for-the-badge&logo=curseforge)](https://www.curseforge.com/members/finndog_123/projects)
 
----
+[![My projects](https://img.shields.io/badge/Modrinth-projects-6f3c5b?style=for-the-badge&logo=modrinth)](https://modrinth.com/user/FinnSetchell)
 
-![Overview](https://www.bisecthosting.com/images/CF/MVS/BH_NU_BANNER1.png)
+***
 
----
+![Overview](https://tools.moogsmods.com/api/img/images/bdfeedb53d584958a01ee48708b7f0d6.png)
 
-**FEEDBACK**
+### ABOUT
 
-Please comment any ideas you may have to improve this mod. Any and all feedback is greatly appreciated :)
+Moog's Bountiful Structures adds around 150 custom built structures designed to feel right at home across BOP's incredible variety of biomes. Whether you're wandering through a lavender field or traversing the dead forest, there's always something new waiting around the corner.
 
-**FORGE AND FABRIC**
+To see some of the structures, head to the [images tab](https://www.curseforge.com/minecraft/mc-mods/mbs-moogs-bountiful-structures/screenshots).
 
-Look for files marked with **\[FORGE\]** or **\[FABRIC\]**.   
-***Fabric** mods are marked with **BETA** so that they show up on the side, but they are actually **RELEASE's***
+![features](https://tools.moogsmods.com/api/img/images/bd8b03afec8d4cec8459aa46ca855e73.png) !\[collage\](coming soon…)
 
-**ABOUT**
+![showcase](https://tools.moogsmods.com/api/img/images/2fa63cdf9c364b53893cbf161ebaae2e.png) coming soon…
 
-Moogs Voyager Structures brings life, fun and variety to your Minecraft world! Explore awesome new structures made with vanilla blocks and entities, and discover loot, enemies, and villagers along the way. This mod is compatible with any modpack and keeps the vanilla feel of the game!
+![discord](https://tools.moogsmods.com/api/img/images/514dcf57ba4d4e33a1c812a1336fa5f9.png) The best and fastest way to get replies is to join our [Discord server](https://discord.gg/S5nffJbuvA).
 
-**Config pack**
-
-[link](https://www.curseforge.com/minecraft/texture-packs/mvs-moogs-voyager-structure-config-pack)
-
-A datapack you can use to configure the mod.
-
-**REQUIRED ON CLIENT AND SERVER**
-
-1. simply download the version you need
-2. then add it to your mods folder  
-   It does not require any settings to be changed for it and should work with all mods
-
----
-
-![features](https://www.bisecthosting.com/images/CF/MVS/BH_NU_BANNER2.png)![collage](https://imgur.com/I9lNEvl.png)
-
----
-
-![showcase](https://www.bisecthosting.com/images/CF/MVS/BH_NU_BANNER4.png)
-
----
-
-**If you have any modpacks/videos using this mod that you want featured here, then message me on discord!**
-
-**VIDEOS:**
-
-
-
-
-
-**MODPACKS**
-
-see all modpacks [here](https://www.modpackindex.com/modpack/finder?included_mods=37802 "here")
-
----
-
-![](https://www.bisecthosting.com/images/CF/MVS/BH_NU_BANNER3.png)
-
----
-
-**The best and fastest way to get replies is to join our [discord server](https://discord.gg/S5nffJbuvA)**
-
-[**![discord](https://i.imgur.com/sfAmR3Y.png)**](https://discord.gg/S5nffJbuvA "discord invite")
-
----
-
-[![serverImage](https://i.imgur.com/kMtqORw.png)](https://moogsmodded.store.playerlands.com/ "serverShop")  
-[![BHsponser](https://www.bisecthosting.com/images/CF/MVS/BH_NU_PROMO.png)](https://bisecthosting.com/moogsmods)
+[![BHsponser](https://www.bisecthosting.com/images/CF/MVS/BH_NU_PROMO.png)](https://bisecthosting.com/moogsmods)la
