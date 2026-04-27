@@ -89,7 +89,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:bundle",
+          "name": "minecraft:golden_apple",
           "weight": 5
         }
       ]

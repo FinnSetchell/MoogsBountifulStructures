@@ -10,7 +10,7 @@
         "processors": "minecraft:empty",
         "location": "mbs:desert_cart_1",
         "locations": {
-          "1.20-1.20.4": "mbs:dead_cart_1",
+          "1.20-1.20.4": "mbs:desert_cart_1",
           "1.20.5-1.20.6": "mbs:1_20_5/desert_cart_1"
         }
       }
