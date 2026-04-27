@@ -5,10 +5,14 @@
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
+        "location": "mbs:1_21_9/mahogany_well_1",
+        "locations": {
+          "1.21-1.21.8": "mbs:mahogany_well_1",
+          "1.21.9-1.21.11": "mbs:1_21_9/mahogany_well_1"
+        },
         "processors": "minecraft:empty",
-        "location": "mbs:mahogany_well_1"
+        "projection": "rigid",
+        "type": "moogs_structures:versioned_single_pool_element"
       }
     }
   ]

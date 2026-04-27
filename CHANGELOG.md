@@ -2,6 +2,13 @@
 
 ---
 
+## [2.0.3] - 2026-04-27
+
+### Fixed
+- Resolved version compatibility issues where blocks used in structures were renamed or replaced between Minecraft versions
+
+---
+
 ## [1.0.2] - 2026-04-27
 
 ### Fixed
