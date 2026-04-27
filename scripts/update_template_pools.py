@@ -12,9 +12,9 @@ from pathlib import Path
 import json
 import sys
 
-VERSION_FOLDER = "1_21_9"
-VERSION_RANGE  = "1.21.9-1.21.11"
-NAMESPACE      = "mmv"
+VERSION_FOLDER = "1_20_5"
+VERSION_RANGE  = "1.20.5-1.20.6"
+NAMESPACE      = "mbs"
 
 
 def collect_versioned_paths(structure_dir: Path, version_folder: str) -> set[str]:
@@ -84,8 +84,8 @@ def process_pool(json_path: Path, versioned_paths: set[str]) -> bool:
 def main():
     script_dir   = Path(__file__).parent
     project_root = script_dir.parent
-    structure_dir    = project_root / "src" / "main" / "resources" / "data" / "mmv" / "structures"
-    template_pool_dir = project_root / "src" / "main" / "resources" / "data" / "mmv" / "worldgen" / "template_pool"
+    structure_dir    = project_root / "src" / "main" / "resources" / "data" / "mbs" / "structures"
+    template_pool_dir = project_root / "src" / "main" / "resources" / "data" / "mbs" / "worldgen" / "template_pool"
 
     versioned_paths = collect_versioned_paths(structure_dir, VERSION_FOLDER)
     print(f"Found {len(versioned_paths)} structures with a '{VERSION_FOLDER}' variant.\n")
