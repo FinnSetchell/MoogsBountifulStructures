@@ -139,9 +139,8 @@ tasks.named('publishMods').configure {
     dependsOn tasks.named('jar')
 }
 
-// Send banner message before the Discord embed
-tasks.named('announceDiscord').configure {
-    doFirst {
+tasks.register('sendDiscordBanner') {
+    doLast {
         def webhookUrl = isDryRun
             ? System.getenv('DISCORD_WEBHOOK_DRY_RUN')
             : System.getenv('DISCORD_WEBHOOK')
@@ -159,4 +158,8 @@ tasks.named('announceDiscord').configure {
         connection.outputStream.withWriter { it << """{"username":"Moog's Mods","avatar_url":"${avatarUrl}","content":"<@&1466012771379581039>\\n${bannerUrl}","allowed_mentions":{"parse":[],"roles":["1466012771379581039"]}}""" }
         connection.responseCode
     }
+}
+
+tasks.named('announceDiscord').configure {
+    dependsOn tasks.named('sendDiscordBanner')
 }

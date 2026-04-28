@@ -2,6 +2,13 @@
 
 ---
 
+## [1.0.3] - 2026-04-28
+
+### Fixes
+- Replaced blocks added in 1.21+ in several structures with 1.20-compatible equivalents
+
+---
+
 ## [1.0.2] - 2026-04-27
 
 ### Fixes
