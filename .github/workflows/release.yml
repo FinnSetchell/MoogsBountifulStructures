@@ -13,7 +13,17 @@ jobs:
     name: Validate Structures
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout mod project
+        uses: actions/checkout@v4
+        with:
+          path: project
+
+      - name: Checkout validator
+        uses: actions/checkout@v4
+        with:
+          repository: FinnSetchell/moogs-structure-validator
+          ref: v1
+          path: validator
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -21,16 +31,10 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install nbtlib
+        run: pip install -r validator/requirements.txt
 
-      - name: Check NBT integrity
-        run: python scripts/nbt_check.py
-
-      - name: Check loot tables
-        run: python scripts/check_loot_tables.py
-
-      - name: Check data integrity
-        run: python scripts/check_data_integrity.py
+      - name: Run validator
+        run: python validator/validator.py --config project/validator.json --project-root project
 
   publish:
     name: Publish
