@@ -316,7 +316,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": {}
+              "chance": 0.5
             }
           ]
         },
@@ -410,7 +410,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:chain",
+          "name": "minecraft:iron_ingot",
           "functions": [
             {
               "function": "minecraft:set_count",

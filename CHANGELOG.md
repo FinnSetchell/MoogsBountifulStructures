@@ -2,6 +2,16 @@
 
 ---
 
+## [1.0.4] - 2026-04-29
+
+### Fixed
+- Fixed structures failing to load when using moogs_structures 2.0.x
+- Fixed some chests having broken loot tables that would produce no items
+- Fixed `ruined_nether_fortress` loot that could fail to generate loot
+- Fixed a `spruce_and_gold` loot table with incorrectly formatted loot
+
+---
+
 ## [2.0.3] - 2026-04-27
 
 ### Fixed
