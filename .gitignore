@@ -1,29 +1,28 @@
-# gradle
-build
-.gradle
+# Build output
+.gradle/
+build/
+bin/
+out/
 
-# idea
-out
-*.ipr
-*.iws
+# IDE - IntelliJ
+.idea/
 *.iml
-.idea
+*.iws
+*.ipr
 
-# eclipse
-bin
-*.launch
-.settings
-.metadata
-.classpath
+# IDE - VS Code
+.vscode/
+.vscode-test/
+
+# IDE - Eclipse
+.settings/
 .project
-eclipse
+.classpath
+.factorypath
 
-# minecraft run dirs
-run
-run-data
-
-# misc
-repo
-.kotlin
+# OS
 .DS_Store
-scripts/.cache
+Thumbs.db
+
+# NOTE: gradlew, gradlew.bat, and gradle/wrapper/gradle-wrapper.{jar,properties}
+# MUST be committed. Do NOT add them here - CI relies on them.
