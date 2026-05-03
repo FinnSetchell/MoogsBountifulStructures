@@ -5,6 +5,10 @@ plugins {
 
 group = "com.finndog"
 
+java {
+    withSourcesJar()
+}
+
 def modName = (project.findProperty('modName') ?: project.name) as String
 def mcVersion = project.findProperty('minecraftVersion') as String
 def modId = project.findProperty('modId') as String
@@ -13,9 +17,12 @@ def modDescription = project.findProperty('modDescription') as String
 def modHomepage = project.findProperty('modHomepage') as String
 def modSources = project.findProperty('modSources') as String
 def modIssues = project.findProperty('modIssues') as String
+def modDiscord = project.findProperty('modDiscord') as String
+def modKofi = project.findProperty('modKofi') as String
+def modCurseforge = project.findProperty('modCurseforge') as String
+def modModrinth = project.findProperty('modModrinth') as String
+def modReleases = project.findProperty('modReleases') as String
 def structureLibVersionRange = project.findProperty('structureLibVersionRange') as String
-def publishingDisplayName = project.findProperty('publishingDisplayName') as String
-def isDryRun = false
 
 repositories {
     mavenCentral()
@@ -31,6 +38,11 @@ tasks.processResources {
             'mod_homepage': modHomepage,
             'mod_sources': modSources,
             'mod_issues': modIssues,
+            'mod_discord': modDiscord,
+            'mod_kofi': modKofi,
+            'mod_curseforge': modCurseforge,
+            'mod_modrinth': modModrinth,
+            'mod_releases': modReleases,
             'structure_lib_version_range': structureLibVersionRange,
     ]
     filesMatching('fabric.mod.json') { expand(meta) }
@@ -44,15 +56,33 @@ tasks.named('jar') {
 }
 
 // Auto publishing configuration
+// Extract just the latest version's section from CHANGELOG.md so publish targets
+// (Modrinth, CurseForge, Discord) only receive that release's notes - not the full
+// historical changelog.
 def changeLogFile = rootProject.file('CHANGELOG.md')
-def changelogFull = changeLogFile.exists() ? changeLogFile.getText('UTF-8') : ''
-def sectionMatcher = ~/(?s)## \[${version}\] - \d{4}-\d{2}-\d{2}\r?\n(.*?)(?=\r?\n---|\r?\n## \[|\z)/
-def sectionMatch = sectionMatcher.matcher(changelogFull)
-def changelogLatest = sectionMatch.find() ? sectionMatch.group(1).trim() : changelogFull
+def changelogText = ''
+if (changeLogFile.exists()) {
+    def fullText = changeLogFile.getText('UTF-8')
+    // Match: ## [<version>] - YYYY-MM-DD\n then capture until next version, separator, or EOF
+    // \r?\n tolerates both LF and CRLF so the regex still matches when CHANGELOG.md is saved with Windows line endings.
+    def quotedVersion = java.util.regex.Pattern.quote(version.toString())
+    def pattern = java.util.regex.Pattern.compile(
+            '## \\[' + quotedVersion + '\\] - \\d{4}-\\d{2}-\\d{2}\\r?\\n(.*?)(?=\\r?\\n---|## \\[|\\z)',
+            java.util.regex.Pattern.DOTALL
+    )
+    def matcher = pattern.matcher(fullText)
+    if (matcher.find()) {
+        changelogText = matcher.group(1).trim()
+    } else {
+        // Fallback: pass the full file. Means the section header didn't match
+        // version=${version} - check that CHANGELOG.md has a "## [${version}] - YYYY-MM-DD" entry.
+        changelogText = fullText
+    }
+}
 
 publishMods {
     file = tasks.named('jar').flatMap { it.archiveFile }
-    changelog = changelogLatest
+    changelog = changelogText
 
     // Release metadata
     version = project.version.toString()
@@ -70,7 +100,7 @@ publishMods {
     maxRetries = 3
 
     // When dry run is enabled the release assets will be saved to the build directory for testing.
-    dryRun = isDryRun
+    dryRun = (project.findProperty('publishDryRun') ?: 'false').toString().toBoolean()
 
     modrinth {
         accessToken = providers.environmentVariable('MODRINTH_API_KEY')
@@ -82,9 +112,6 @@ publishMods {
         }
         requires {
             slug = "moogs-structure-lib"
-        }
-        requires {
-            slug = "biomes-o-plenty"
         }
     }
 
@@ -99,67 +126,93 @@ publishMods {
             end = project.findProperty('publishMcEnd')
         }
         requires("moogs-structure-lib")
-        requires("biomes-o-plenty")
     }
 
     discord {
         webhookUrl = providers.environmentVariable('DISCORD_WEBHOOK')
         dryRunWebhookUrl = providers.environmentVariable('DISCORD_WEBHOOK_DRY_RUN').orElse('')
         username = "Moog's Mods"
-        avatarUrl = (project.findProperty('discordAvatarUrl') ?: '')
 
         content = changelog.map { text ->
-            def changelogBody = text.trim()
-            
             def prefix = project.findProperty('publishDisplayPrefix')
             def suffix = project.findProperty('publishDisplaySuffix')
             def mcStart = project.findProperty('publishMcStart')
             def mcEnd = project.findProperty('publishMcEnd')
             def versionRange = mcStart == mcEnd ? mcStart : "$mcStart - $mcEnd"
-            
-            """## **${publishingDisplayName} ${project.version}** has been released! 🎉
+
+            """## 🎉 **${modName} ${project.version}** has been released!
 
 **${prefix} ${project.version}-${mcVersion} ${suffix}**
 Versions - ${versionRange}
 
 ### 📝 **Changelog:**
-${changelogBody}
+${text.trim()}
 """
         }
-        
+
         style {
             look = "MODERN"
             link = "EMBED"
-            color = (project.findProperty('discordEmbedColor') ?: '#804e50')
+            color = (project.findProperty('discordEmbedColor') ?: '#0f2b52')
+            thumbnailUrl = project.findProperty('discordThumbnailUrl')
         }
     }
 }
 
+// Ensure the jar is built before publishing
 tasks.named('publishMods').configure {
     dependsOn tasks.named('jar')
 }
 
-tasks.register('sendDiscordBanner') {
+// Standalone Discord preview task. Posts the same release announcement that
+// publishMods would send, but to DISCORD_WEBHOOK_DRY_RUN, without touching
+// Modrinth or CurseForge. Run with:
+//   DISCORD_WEBHOOK_DRY_RUN=... ./gradlew discordPreview
+tasks.register('discordPreview') {
+    group = 'publishing'
+    description = 'POST a preview of the release announcement to DISCORD_WEBHOOK_DRY_RUN.'
     doLast {
-        def webhookUrl = isDryRun
-            ? System.getenv('DISCORD_WEBHOOK_DRY_RUN')
-            : System.getenv('DISCORD_WEBHOOK')
-        def bannerUrl = project.findProperty('discordBannerUrl') as String
-        def avatarUrl = project.findProperty('discordAvatarUrl') as String
-        if (!bannerUrl) return
+        def webhookUrl = System.getenv('DISCORD_WEBHOOK_DRY_RUN')
         if (!webhookUrl) {
-            logger.warn("Discord banner skipped: {} is not set", isDryRun ? 'DISCORD_WEBHOOK_DRY_RUN' : 'DISCORD_WEBHOOK')
-            return
+            throw new GradleException('DISCORD_WEBHOOK_DRY_RUN env var must be set.')
         }
-        def connection = new URL(webhookUrl).openConnection()
-        connection.requestMethod = 'POST'
-        connection.doOutput = true
-        connection.setRequestProperty('Content-Type', 'application/json')
-        connection.outputStream.withWriter { it << """{"username":"Moog's Mods","avatar_url":"${avatarUrl}","content":"<@&1466012771379581039>\\n${bannerUrl}","allowed_mentions":{"parse":[],"roles":["1466012771379581039"]}}""" }
-        connection.responseCode
+        def prefix = project.findProperty('publishDisplayPrefix')
+        def suffix = project.findProperty('publishDisplaySuffix')
+        def mcStart = project.findProperty('publishMcStart')
+        def mcEnd = project.findProperty('publishMcEnd')
+        def vRange = mcStart == mcEnd ? mcStart : "$mcStart - $mcEnd"
+
+        def description = """## 🎉 **${modName} ${project.version}** has been released! [PREVIEW]
+
+**${prefix} ${project.version}-${mcVersion} ${suffix}**
+Versions - ${vRange}
+
+### 📝 **Changelog:**
+${changelogText.trim()}
+"""
+
+        def colorHex = (project.findProperty('discordEmbedColor') ?: '#0f2b52').replace('#', '')
+        def colorInt = Integer.parseInt(colorHex, 16)
+        def thumb = project.findProperty('discordThumbnailUrl') as String
+        def avatarUrl = project.findProperty('discordAvatarUrl') as String
+
+        def embed = [title: "[PREVIEW] ${modName} ${project.version}", description: description, color: colorInt]
+        if (thumb) embed.thumbnail = [url: thumb]
+
+        def payload = [username: "Moog's Mods (preview)", avatar_url: avatarUrl, embeds: [embed]]
+        def json = groovy.json.JsonOutput.toJson(payload)
+
+        def conn = (HttpURLConnection) new URL(webhookUrl).openConnection()
+        conn.requestMethod = 'POST'
+        conn.doOutput = true
+        conn.setRequestProperty('Content-Type', 'application/json')
+        conn.outputStream.withWriter('UTF-8') { it.write(json) }
+        def code = conn.responseCode
+        if (code in 200..299) {
+            println "✓ Discord preview posted (HTTP ${code})"
+        } else {
+            throw new GradleException("Discord preview failed: HTTP ${code}: ${conn.errorStream?.text}")
+        }
     }
 }
 
-tasks.named('announceDiscord').configure {
-    dependsOn tasks.named('sendDiscordBanner')
-}
