@@ -2,6 +2,13 @@
 
 ---
 
+## [1.0.5] - 2026-05-22
+
+### Fixed
+- Versioned structures now have a defined path for Minecraft 26.1–26.1.2, so the game stops logging "no version mapping matched" warnings and no longer falls back to an older structure template.
+
+---
+
 ## [1.0.4] - 2026-04-29
 
 ### Fixed

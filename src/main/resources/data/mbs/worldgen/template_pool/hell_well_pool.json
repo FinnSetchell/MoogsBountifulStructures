@@ -8,7 +8,8 @@
         "location": "mbs:1_21_9/hell_well",
         "locations": {
           "1.21-1.21.8": "mbs:hell_well",
-          "1.21.9-1.21.11": "mbs:1_21_9/hell_well"
+          "1.21.9-1.21.11": "mbs:1_21_9/hell_well",
+          "26.1-26.1.2": "mbs:1_21_9/hell_well"
         },
         "processors": "minecraft:empty",
         "projection": "rigid",
