@@ -4,19 +4,19 @@
     {
       "rolls": {
         "min": 2,
-        "max": 4
+        "max": 3
       },
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond",
-          "weight": 5,
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 3
+                "max": 2
               }
             }
           ]
@@ -29,8 +29,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2,
-                "max": 6
+                "min": 1,
+                "max": 4
               }
             }
           ]
@@ -43,8 +43,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 3,
-                "max": 8
+                "min": 2,
+                "max": 6
               }
             }
           ]
@@ -70,13 +70,17 @@
               "function": "minecraft:enchant_randomly"
             }
           ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 7
         }
       ]
     },
     {
       "rolls": {
         "min": 1,
-        "max": 3
+        "max": 2
       },
       "entries": [
         {
@@ -92,8 +96,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2,
-                "max": 5
+                "min": 1,
+                "max": 3
               }
             }
           ]

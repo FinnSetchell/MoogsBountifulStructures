@@ -4,11 +4,9 @@
 
 ## [1.0.5] - 2026-05-22
 
-_Pending. Update this header date and replace this line with the actual changes before tagging._
-
----
-
-## [1.0.5] - 2026-05-22
+### Changed
+- Rebalanced loot to address feedback that structures were too OP. Cut roll counts and stack sizes in the most common loot tables, reducing exposure of gold/iron/emerald/diamond by ~60-70%. Rare loot tables left untouched.
+- `miners_camp_rare` chests no longer guarantee an enchanted diamond pickaxe in every chest (now ~22% chance).
 
 ### Fixed
 - Versioned structures now have a defined path for Minecraft 26.1–26.1.2, so the game stops logging "no version mapping matched" warnings and no longer falls back to an older structure template.
