@@ -4,7 +4,8 @@
 
 ## [1.0.6] - 2026-05-25
 
-_Pending. Update this header date and replace this line with the actual changes before tagging._
+### Fixed
+- Fixed mods.toml parse error that prevented the mod from loading (`Invalid entry separator 'P' in inline table`). The mod description's apostrophe was breaking TOML string parsing.
 
 ---
 
