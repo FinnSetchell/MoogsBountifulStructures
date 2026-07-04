@@ -5,10 +5,15 @@
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:plainsandgrass_gold_pile"
+        "location": "mbs:1_21_5/plainsandgrass_gold_pile",
+        "locations": {
+          "1.21-1.21.4": "mbs:plainsandgrass_gold_pile",
+          "1.21.5-1.21.11": "mbs:1_21_5/plainsandgrass_gold_pile",
+          "26.1-26.1.2": "mbs:1_21_5/plainsandgrass_gold_pile"
+        }
       }
     }
   ]

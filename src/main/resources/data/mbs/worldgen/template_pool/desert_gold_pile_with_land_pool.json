@@ -5,10 +5,15 @@
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:desert_gold_pile_with_land"
+        "location": "mbs:1_21_5/desert_gold_pile_with_land",
+        "locations": {
+          "1.21-1.21.4": "mbs:desert_gold_pile_with_land",
+          "1.21.5-1.21.11": "mbs:1_21_5/desert_gold_pile_with_land",
+          "26.1-26.1.2": "mbs:1_21_5/desert_gold_pile_with_land"
+        }
       }
     }
   ]
