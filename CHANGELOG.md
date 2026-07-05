@@ -2,6 +2,13 @@
 
 ---
 
+## [1.0.4] - 2026-07-05
+
+### Fixed
+- `dead_gold_pile_iron_golem` structure was so rare it could not be located even after searching millions of blocks. Reduced spacing (42 -> 20) and separation (23 -> 10) so it reliably generates within dead biomes.
+
+---
+
 ## [1.0.3] - 2026-04-28
 
 ### Fixes
