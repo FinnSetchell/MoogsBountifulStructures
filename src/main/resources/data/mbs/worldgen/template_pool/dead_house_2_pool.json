@@ -7,7 +7,8 @@
       "element": {
         "location": "mbs:1_21_9/dead_house_2",
         "locations": {
-          "1.21-1.21.8": "mbs:dead_house_2",
+          "1.21-1.21.4": "mbs:dead_house_2",
+          "1.21.5-1.21.8": "mbs:1_21_5/dead_house_2",
           "1.21.9-1.21.11": "mbs:1_21_9/dead_house_2",
           "26.1-26.1.2": "mbs:1_21_9/dead_house_2"
         },

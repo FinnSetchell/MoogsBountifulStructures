@@ -5,10 +5,15 @@
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:plainsandgrass_house_2"
+        "location": "mbs:plainsandgrass_house_2",
+        "locations": {
+          "1.21-1.21.4": "mbs:plainsandgrass_house_2",
+          "1.21.5-1.21.11": "mbs:1_21_5/plainsandgrass_house_2",
+          "26.1-26.1.2": "mbs:1_21_5/plainsandgrass_house_2"
+        }
       }
     },
     {
