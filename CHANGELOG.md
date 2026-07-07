@@ -2,6 +2,13 @@
 
 ---
 
+## [1.0.5] - 2026-07-07
+
+### Fixed
+- Fixed a mods.toml parse error that caused Minecraft to crash before launch on every 1.20.1 loader (Forge, NeoForge, Fabric). The mod description contains an apostrophe (`Biomes O' Plenty`), which was breaking the single-quoted TOML string in `mods.toml` and `neoforge.mods.toml`. Switched the affected placeholders to double quotes so the description parses correctly. Affected 1.0.4.
+
+---
+
 ## [1.0.4] - 2026-07-05
 
 ### Fixed
