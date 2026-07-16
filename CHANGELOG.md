@@ -2,6 +2,12 @@
 
 ---
 
+## [1.0.11] - 2026-07-16
+
+_Pending. Update this header date and replace this line with the actual changes before tagging._
+
+---
+
 ## [1.0.10] - 2026-07-16
 
 ### Changed
