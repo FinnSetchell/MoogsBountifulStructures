@@ -9,7 +9,7 @@
         "locations": {
           "1.21-1.21.8": "mbs:dead_forest_well",
           "1.21.9-1.21.11": "mbs:1_21_9/dead_forest_well",
-          "26.1-26.1.2": "mbs:1_21_9/dead_forest_well"
+          "26.1-26.2": "mbs:1_21_9/dead_forest_well"
         },
         "processors": "minecraft:empty",
         "projection": "rigid",

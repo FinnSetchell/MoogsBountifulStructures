@@ -12,7 +12,7 @@
         "locations": {
           "1.21-1.21.4": "mbs:jungle_gold_pile",
           "1.21.5-1.21.11": "mbs:1_21_5/jungle_gold_pile",
-          "26.1-26.1.2": "mbs:1_21_5/jungle_gold_pile"
+          "26.1-26.2": "mbs:1_21_5/jungle_gold_pile"
         }
       }
     }

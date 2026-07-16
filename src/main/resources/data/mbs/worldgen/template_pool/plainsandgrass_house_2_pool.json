@@ -12,7 +12,7 @@
         "locations": {
           "1.21-1.21.4": "mbs:plainsandgrass_house_2",
           "1.21.5-1.21.11": "mbs:1_21_5/plainsandgrass_house_2",
-          "26.1-26.1.2": "mbs:1_21_5/plainsandgrass_house_2"
+          "26.1-26.2": "mbs:1_21_5/plainsandgrass_house_2"
         }
       }
     },
@@ -23,7 +23,7 @@
         "locations": {
           "1.21-1.21.8": "mbs:plainsandgrass_house_3",
           "1.21.9-1.21.11": "mbs:1_21_9/plainsandgrass_house_3",
-          "26.1-26.1.2": "mbs:1_21_9/plainsandgrass_house_3"
+          "26.1-26.2": "mbs:1_21_9/plainsandgrass_house_3"
         },
         "processors": "minecraft:empty",
         "projection": "rigid",

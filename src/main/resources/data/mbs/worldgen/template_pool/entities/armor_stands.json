@@ -7,7 +7,7 @@
         "locations": {
           "1.21-1.21.4": "mbs:entities/armor_stand_1",
           "1.21.5-1.21.11": "mbs:1_21_5/entities/armor_stand_1",
-          "26.1-26.1.2": "mbs:1_21_5/entities/armor_stand_1"
+          "26.1-26.2": "mbs:1_21_5/entities/armor_stand_1"
         },
         "processors": "minecraft:empty",
         "projection": "rigid"
@@ -21,7 +21,7 @@
         "locations": {
           "1.21-1.21.4": "mbs:entities/armor_stand_2",
           "1.21.5-1.21.11": "mbs:1_21_5/entities/armor_stand_2",
-          "26.1-26.1.2": "mbs:1_21_5/entities/armor_stand_2"
+          "26.1-26.2": "mbs:1_21_5/entities/armor_stand_2"
         },
         "processors": "minecraft:empty",
         "projection": "rigid"
@@ -35,7 +35,7 @@
         "locations": {
           "1.21-1.21.4": "mbs:entities/armor_stand_3",
           "1.21.5-1.21.11": "mbs:1_21_5/entities/armor_stand_3",
-          "26.1-26.1.2": "mbs:1_21_5/entities/armor_stand_3"
+          "26.1-26.2": "mbs:1_21_5/entities/armor_stand_3"
         },
         "processors": "minecraft:empty",
         "projection": "rigid"
