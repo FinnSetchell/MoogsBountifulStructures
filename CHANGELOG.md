@@ -2,9 +2,10 @@
 
 ---
 
-## [1.0.10] - 2026-07-05
+## [1.0.10] - 2026-07-16
 
-_Pending. Update this header date and replace this line with the actual changes before tagging._
+### Changed
+- updated to 26.2 (added 26.2 to the published Minecraft version list and validator config so the mod is properly listed as 26.2-compatible)
 
 ---
 
