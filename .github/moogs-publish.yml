@@ -1,0 +1,35 @@
+# v2 publish manifest — FinnSetchell/MoogsBountifulStructures
+# Lives on the default branch (1.21-datapack); every publish branch reads it from there.
+# Schema per release-actions docs/v2-contracts.md.
+schema: 1
+mod:
+  id: mbs
+  displayName: "Moog's Bountiful Structures"   # live Modrinth title is "MBS - Moog's Bountiful Structures"
+  environments: [Server]   # verified against live CF files 2026-07-26 (every file carries the Server tag)
+  name: MoogsBountifulStructures
+  validate: true
+platforms:
+  curseforge: { projectId: 1499680, slug: mbs-moogs-bountiful-structures }   # CF /mods API 403 — id verified via the public files endpoint
+  modrinth:   { projectId: Qnb1HbfK, slug: mbs-moogs-bountiful-structures }  # live-verified 2026-07-26
+discord:
+  embedColor: "#6f3c5b"
+  avatarUrl: "https://media.forgecdn.net/avatars/thumbnails/1736/723/64/64/639105562499405210.png"
+  # Was in the discordThumbnailUrl slot in gradle.properties, but it is 6416x2152 (wide
+  # header) -> semantically a banner. No square thumbnail exists for this mod.
+  bannerUrl: "https://tools.moogsmods.com/api/img/images/602d3bf328184e8aabe3d8eba918931c.png"
+  pingDefault: true
+# Required dependencies — matches the live latest versions on both branches
+# (Modrinth 1.0.10 / 1.0.5, verified 2026-07-26).
+dependencies:
+  - { modrinth: 1oUDhxuy, curseforge: moogs-structure-lib, type: required }
+artifacts:
+  - type: universal-jar
+targets:
+  - branch: 1.20-datapack
+    mc: { start: "1.20", end: "1.20.6" }
+    java: 21
+    displaySuffix: "[UNIVERSAL]"
+  - branch: 1.21-datapack
+    mc: { start: "1.21", end: "26.2" }   # fleet standard for universal 1.21 targets
+    java: 21
+    displaySuffix: "[UNIVERSAL]"
