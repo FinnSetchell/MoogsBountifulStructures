@@ -2,7 +2,7 @@
 
 [![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D8LKA5N)
 
-[![Discord](https://img.shields.io/discord/869218732650688543?color=6f3c5b&label=DISCORD&style=for-the-badge)](https://discord.com/invite/S5nffJbuvA)
+[![Discord](https://img.shields.io/discord/869218732650688543?color=6f3c5b&label=DISCORD&style=for-the-badge)](https://moogsmods.com/discord?r=readme-mbs)
 
 [![My projects](https://img.shields.io/badge/CurseForge-projects-6f3c5b?style=for-the-badge&logo=curseforge)](https://www.curseforge.com/members/finndog_123/projects)
 
@@ -22,6 +22,6 @@ To see some of the structures, head to the [images tab](https://www.curseforge.c
 
 ![showcase](https://tools.moogsmods.com/api/img/images/2fa63cdf9c364b53893cbf161ebaae2e.png) coming soon…
 
-![discord](https://tools.moogsmods.com/api/img/images/514dcf57ba4d4e33a1c812a1336fa5f9.png) The best and fastest way to get replies is to join our [Discord server](https://discord.gg/S5nffJbuvA).
+![discord](https://tools.moogsmods.com/api/img/images/514dcf57ba4d4e33a1c812a1336fa5f9.png) The best and fastest way to get replies is to join our [Discord server](https://moogsmods.com/discord?r=readme-mbs).
 
 [![BHsponser](https://www.bisecthosting.com/images/CF/MVS/BH_NU_PROMO.png)](https://bisecthosting.com/moogsmods)
