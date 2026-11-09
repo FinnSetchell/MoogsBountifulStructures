@@ -6,6 +6,7 @@
 
 ### Fixed
 - Chests that were meant to hold enchanted books, such as the abandoned house's, now give them instead of a blank book
+- The golden helmet in the nether halls' chests now comes enchanted, as it does on newer versions
 
 ### Changed
 - Now requires Moog's Structure Lib 1.1.0 or newer
