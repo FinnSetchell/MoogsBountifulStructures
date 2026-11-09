@@ -2,9 +2,10 @@
 
 ---
 
-## [1.0.6] - 2026-07-07
+## [1.0.6]
 
-_Pending. Update this header date and replace this line with the actual changes before tagging._
+### Fixed
+- Chests that were meant to hold enchanted books, such as the abandoned house's, now give them instead of a blank book
 
 ---
 
