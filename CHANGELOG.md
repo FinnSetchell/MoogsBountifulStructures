@@ -4,9 +4,15 @@
 
 ## [1.0.11]
 
+### Added
+- Minecraft 26.3 support
+
 ### Fixed
 - Chests on Minecraft 26.3 now give full stacks and enchanted items, the same as on older versions
 - Chests that were meant to hold enchanted books, such as the abandoned house's, now give them instead of a blank book
+
+### Changed
+- Now requires Moog's Structure Lib 1.1.0 or newer
 
 ---
 
