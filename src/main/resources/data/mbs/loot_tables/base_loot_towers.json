@@ -33,7 +33,6 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "only_compatible": true,
               "conditions": [],
               "levels": {
                 "type": "minecraft:uniform",
