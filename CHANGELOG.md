@@ -6,6 +6,7 @@
 
 ### Fixed
 - Chests on Minecraft 26.3 now give full stacks and enchanted items, the same as on older versions
+- Chests that were meant to hold enchanted books, such as the abandoned house's, now give them instead of a blank book
 
 ---
 
