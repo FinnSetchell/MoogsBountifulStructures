@@ -2,9 +2,10 @@
 
 ---
 
-## [1.0.11] - 2026-07-16
+## [1.0.11]
 
-_Pending. Update this header date and replace this line with the actual changes before tagging._
+### Fixed
+- Chests on Minecraft 26.3 now give full stacks and enchanted items, the same as on older versions
 
 ---
 
