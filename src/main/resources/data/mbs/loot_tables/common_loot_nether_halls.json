@@ -220,7 +220,11 @@
           "name": "minecraft:golden_helmet",
           "weight": 1,
           "quality": 1,
-          "functions": []
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ]
         }
       ]
     },
