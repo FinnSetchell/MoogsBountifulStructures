@@ -12,7 +12,7 @@
 - Chests that were meant to hold enchanted books, such as the abandoned house's, now give them instead of a blank book
 
 ### Changed
-- Now requires Moog's Structure Lib 1.1.0 or newer
+- Now needs Moog's Structure Lib 3.0.0 or newer
 
 ---
 
