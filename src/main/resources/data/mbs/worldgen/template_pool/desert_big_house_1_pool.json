@@ -5,10 +5,14 @@
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mbs:1_21_4/desert_big_house_1",
+        "locations": {
+          "1.21-1.21.3": "mbs:1_21_0/desert_big_house_1",
+          "1.21.4-26.3": "mbs:1_21_4/desert_big_house_1"
+        },
         "processors": "minecraft:empty",
-        "location": "mbs:desert_big_house_1"
+        "projection": "rigid"
       }
     },
     {
