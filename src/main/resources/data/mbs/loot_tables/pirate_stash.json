@@ -108,6 +108,38 @@
           "weight": 5
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "mbs:on_gold_pile_maps",
+              "decoration": "red_x",
+              "zoom": 2,
+              "search_radius": 12,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "filled_map.mbs.gold_hoard_map",
+                "fallback": "Gold Hoard Map"
+              },
+              "target": "item_name"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 29
+        }
+      ]
     }
   ]
 }
