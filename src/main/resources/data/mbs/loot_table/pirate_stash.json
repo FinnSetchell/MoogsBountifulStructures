@@ -133,6 +133,71 @@
           "weight": 5
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "mbs:on_gold_pile_maps",
+              "decoration": "red_x",
+              "zoom": 2,
+              "search_radius": 12,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "filled_map.mbs.gold_hoard_map",
+                "fallback": "Gold Hoard Map"
+              },
+              "target": "item_name"
+            }
+          ],
+          "modifier": [
+            {
+              "type": "minecraft:set_item",
+              "item": "minecraft:buried_treasure_map"
+            },
+            {
+              "type": "minecraft:exploration_map",
+              "destination": "#mbs:on_gold_pile_maps",
+              "decoration": "red_x",
+              "zoom": 2,
+              "search_radius": 12,
+              "skip_existing_chunks": false
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:map_id": {}
+                }
+              },
+              "on_fail": {
+                "type": "minecraft:discard"
+              }
+            },
+            {
+              "type": "minecraft:set_name",
+              "name": {
+                "translate": "filled_map.mbs.gold_hoard_map",
+                "fallback": "Gold Hoard Map"
+              },
+              "target": "item_name"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 29
+        }
+      ]
     }
   ]
 }
