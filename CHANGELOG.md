@@ -4,6 +4,9 @@
 
 ## [1.0.6]
 
+### Added
+- Chests can hold maps that lead to gold piles and the big camps
+
 ### Fixed
 - Chests that were meant to hold enchanted books, such as the abandoned house's, now give them instead of a blank book
 - The golden helmet in the nether halls' chests now comes enchanted, as it does on newer versions
