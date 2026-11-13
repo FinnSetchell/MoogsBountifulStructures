@@ -5,10 +5,14 @@
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mbs:1_21_5/desert_pine_cart2",
+        "locations": {
+          "1.21-1.21.4": "mbs:1_21_0/desert_pine_cart2",
+          "1.21.5-26.3": "mbs:1_21_5/desert_pine_cart2"
+        },
         "processors": "minecraft:empty",
-        "location": "mbs:desert_pine_cart2"
+        "projection": "rigid"
       }
     }
   ]
