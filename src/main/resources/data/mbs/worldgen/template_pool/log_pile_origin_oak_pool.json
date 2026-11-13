@@ -5,10 +5,14 @@
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mbs:1_21_8/log_pile_origin_oak",
+        "locations": {
+          "1.21-1.21.7": "mbs:1_21_0/log_pile_origin_oak",
+          "1.21.8-26.3": "mbs:1_21_8/log_pile_origin_oak"
+        },
         "processors": "minecraft:empty",
-        "location": "mbs:log_pile_origin_oak"
+        "projection": "rigid"
       }
     }
   ]

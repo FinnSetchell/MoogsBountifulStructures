@@ -5,10 +5,14 @@
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "terrain_matching",
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mbs:1_21_5/orange_maple_patch",
+        "locations": {
+          "1.21-1.21.4": "mbs:1_21_0/orange_maple_patch",
+          "1.21.5-26.3": "mbs:1_21_5/orange_maple_patch"
+        },
         "processors": "minecraft:empty",
-        "location": "mbs:orange_maple_patch"
+        "projection": "terrain_matching"
       }
     },
     {
