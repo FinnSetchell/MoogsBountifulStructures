@@ -6,7 +6,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
+        "projection": "terrain_matching",
         "processors": "minecraft:empty",
         "location": "mbs:rock_pile"
       }
@@ -15,7 +15,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
+        "projection": "terrain_matching",
         "processors": "minecraft:empty",
         "location": "mbs:rock_pile_2"
       }
@@ -24,7 +24,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
+        "projection": "terrain_matching",
         "processors": "minecraft:empty",
         "location": "mbs:rock_pile_3"
       }
@@ -33,7 +33,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
+        "projection": "terrain_matching",
         "processors": "minecraft:empty",
         "location": "mbs:rock_pile_4"
       }
@@ -42,7 +42,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
+        "projection": "terrain_matching",
         "processors": "minecraft:empty",
         "location": "mbs:rock_pile_5"
       }
@@ -51,7 +51,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
+        "projection": "terrain_matching",
         "processors": "minecraft:empty",
         "location": "mbs:rock_pile_6"
       }
@@ -60,7 +60,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
+        "projection": "terrain_matching",
         "processors": "minecraft:empty",
         "location": "mbs:rock_pile_7"
       }
@@ -69,7 +69,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
+        "projection": "terrain_matching",
         "processors": "minecraft:empty",
         "location": "mbs:rock_pile_8"
       }
