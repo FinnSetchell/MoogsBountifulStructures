@@ -5,10 +5,14 @@
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "terrain_matching",
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mbs:1_21_5/building_remains",
+        "locations": {
+          "1.21-1.21.4": "mbs:1_21_0/building_remains",
+          "1.21.5-26.3": "mbs:1_21_5/building_remains"
+        },
         "processors": "minecraft:empty",
-        "location": "mbs:building_remains"
+        "projection": "terrain_matching"
       }
     }
   ]
