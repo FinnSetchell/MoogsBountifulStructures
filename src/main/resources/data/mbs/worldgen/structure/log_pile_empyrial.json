@@ -8,7 +8,6 @@
     "absolute": 0
   },
   "terrain_adaptation": "beard_thin",
-  "burying_type": "LOWEST_CORNER",
   "cannot_spawn_in_liquid": true,
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
   "biomes": "biomesoplenty:end_wilds"

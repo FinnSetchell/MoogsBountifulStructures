@@ -8,7 +8,6 @@
     "absolute": 0
   },
   "terrain_adaptation": "none",
-  "burying_type": "LOWEST_CORNER",
   "cannot_spawn_in_liquid": true,
   "terrain_height_radius_check": 1,
   "allowed_terrain_height_range": 2,
