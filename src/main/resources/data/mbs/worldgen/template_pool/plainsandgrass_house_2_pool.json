@@ -13,6 +13,31 @@
           "1.21-1.21.4": "mbs:plainsandgrass_house_2",
           "1.21.5-1.21.11": "mbs:1_21_5/plainsandgrass_house_2",
           "26.1-26.3": "mbs:1_21_5/plainsandgrass_house_2"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury",
+          "band": {
+            "bottom": 1,
+            "top": 1
+          }
+        },
+        "adaptation_area": {
+          "columns": [
+            {
+              "x": [
+                2,
+                10
+              ],
+              "z": [
+                6,
+                17
+              ]
+            }
+          ],
+          "outside_follows_ground": true
         }
       }
     },
@@ -27,43 +52,120 @@
         },
         "processors": "minecraft:empty",
         "projection": "rigid",
-        "element_type": "moogs_structures:versioned_single_pool_element"
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury",
+          "band": {
+            "bottom": 1,
+            "top": 1
+          }
+        },
+        "adaptation_area": {
+          "columns": [
+            {
+              "x": [
+                3,
+                16
+              ],
+              "z": [
+                3,
+                17
+              ]
+            }
+          ],
+          "outside_follows_ground": true
+        }
       }
     },
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:plainsandgrass_house_4"
+        "location": "mbs:plainsandgrass_house_4",
+        "locations": {
+          "1.21-26.3": "mbs:plainsandgrass_house_4"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury",
+          "band": {
+            "bottom": 1,
+            "top": 1
+          }
+        }
       }
     },
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:plainsandgrass_house_5_bed"
+        "location": "mbs:plainsandgrass_house_5_bed",
+        "locations": {
+          "1.21-26.3": "mbs:plainsandgrass_house_5_bed"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury",
+          "band": {
+            "bottom": 1,
+            "top": 1
+          }
+        }
       }
     },
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:plainsandgrass_house_5_path"
+        "location": "mbs:plainsandgrass_house_5_path",
+        "locations": {
+          "1.21-26.3": "mbs:plainsandgrass_house_5_path"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury",
+          "band": {
+            "bottom": 1,
+            "top": 1
+          }
+        }
       }
     },
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:plainsandgrass_big_house_1"
+        "location": "mbs:plainsandgrass_big_house_1",
+        "locations": {
+          "1.21-26.3": "mbs:plainsandgrass_big_house_1"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury",
+          "band": {
+            "bottom": 1,
+            "top": 1
+          }
+        }
       }
     }
   ]

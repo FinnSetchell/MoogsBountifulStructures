@@ -12,7 +12,17 @@
           "1.21.4-26.3": "mbs:1_21_4/desert_big_house_1"
         },
         "processors": "minecraft:empty",
-        "projection": "rigid"
+        "projection": "rigid",
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury",
+          "band": {
+            "bottom": 1,
+            "top": 1
+          }
+        }
       }
     },
     {
@@ -27,43 +37,150 @@
         },
         "processors": "minecraft:empty",
         "projection": "rigid",
-        "element_type": "moogs_structures:versioned_single_pool_element"
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury",
+          "band": {
+            "bottom": 1,
+            "top": 1
+          }
+        },
+        "adaptation_area": {
+          "columns": [
+            {
+              "x": [
+                0,
+                8
+              ],
+              "z": [
+                6,
+                17
+              ]
+            }
+          ],
+          "outside_follows_ground": true
+        }
       }
     },
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:desert_house_3"
+        "location": "mbs:desert_house_3",
+        "locations": {
+          "1.21-26.3": "mbs:desert_house_3"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury",
+          "band": {
+            "bottom": 1,
+            "top": 1
+          }
+        },
+        "adaptation_area": {
+          "columns": [
+            {
+              "x": [
+                0,
+                13
+              ],
+              "z": [
+                2,
+                17
+              ]
+            }
+          ],
+          "outside_follows_ground": true
+        }
       }
     },
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:desert_house_4"
+        "location": "mbs:desert_house_4",
+        "locations": {
+          "1.21-26.3": "mbs:desert_house_4"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury",
+          "band": {
+            "bottom": 1,
+            "top": 1
+          }
+        }
       }
     },
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:desert_house_5_bed"
+        "location": "mbs:desert_house_5_bed",
+        "locations": {
+          "1.21-26.3": "mbs:desert_house_5_bed"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury",
+          "band": {
+            "bottom": 1,
+            "top": 1
+          }
+        },
+        "adaptation_area": {
+          "columns": [
+            {
+              "x": [
+                0,
+                11
+              ],
+              "z": [
+                6,
+                21
+              ]
+            }
+          ],
+          "outside_follows_ground": true
+        }
       }
     },
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:desert_house_5_path"
+        "location": "mbs:desert_house_5_path",
+        "locations": {
+          "1.21-26.3": "mbs:desert_house_5_path"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury",
+          "band": {
+            "bottom": 1,
+            "top": 1
+          }
+        }
       }
     }
   ]
