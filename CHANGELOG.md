@@ -14,7 +14,7 @@
 - The desert big house's banners now show their patterns on Minecraft 1.20 to 1.20.4
 
 ### Changed
-- Now requires Moog's Structure Lib 1.1.0 or newer
+- Now requires Moog's Structure Lib 4.0.0 or newer
 
 ---
 
