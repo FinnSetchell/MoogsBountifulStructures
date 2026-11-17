@@ -14,6 +14,7 @@
 - Chests that were meant to hold enchanted books, such as the abandoned house's, now give them instead of a blank book
 - The desert big house now has its armour stands
 - Magic structures no longer generate on the Nether roof
+- The Hell Well no longer has a strip of yellow concrete along its bottom
 
 ### Changed
 - Biomes O' Plenty is listed as a required dependency again on CurseForge and Modrinth
