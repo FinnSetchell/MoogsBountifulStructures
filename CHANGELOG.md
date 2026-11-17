@@ -7,11 +7,13 @@
 ### Added
 - Minecraft 26.3 support
 - Chests can hold maps that lead to gold piles and the big camps
+- A ruined stone arch now generates across the Overworld
 
 ### Fixed
 - Chests on Minecraft 26.3 now give full stacks and enchanted items, the same as on older versions
 - Chests that were meant to hold enchanted books, such as the abandoned house's, now give them instead of a blank book
 - The desert big house now has its armour stands
+- Magic structures no longer generate on the Nether roof
 
 ### Changed
 - Biomes O' Plenty is listed as a required dependency again on CurseForge and Modrinth
