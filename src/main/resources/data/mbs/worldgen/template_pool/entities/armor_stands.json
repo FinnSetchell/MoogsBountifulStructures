@@ -5,9 +5,9 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "location": "mbs:1_21_5/entities/armor_stand_1",
         "locations": {
-          "1.21-1.21.4": "mbs:entities/armor_stand_1",
-          "1.21.5-1.21.11": "mbs:1_21_5/entities/armor_stand_1",
-          "26.1-26.3": "mbs:1_21_5/entities/armor_stand_1"
+          "1.21-1.21.1": "mbs:1_21_0/entities/armor_stand_1",
+          "1.21.2-1.21.4": "mbs:1_21_2/entities/armor_stand_1",
+          "1.21.5-26.3": "mbs:1_21_5/entities/armor_stand_1"
         },
         "processors": "mbs:skip_air",
         "projection": "rigid"
@@ -19,9 +19,9 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "location": "mbs:1_21_5/entities/armor_stand_2",
         "locations": {
-          "1.21-1.21.4": "mbs:entities/armor_stand_2",
-          "1.21.5-1.21.11": "mbs:1_21_5/entities/armor_stand_2",
-          "26.1-26.3": "mbs:1_21_5/entities/armor_stand_2"
+          "1.21-1.21.1": "mbs:1_21_0/entities/armor_stand_2",
+          "1.21.2-1.21.4": "mbs:1_21_2/entities/armor_stand_2",
+          "1.21.5-26.3": "mbs:1_21_5/entities/armor_stand_2"
         },
         "processors": "mbs:skip_air",
         "projection": "rigid"
@@ -33,9 +33,9 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "location": "mbs:1_21_5/entities/armor_stand_3",
         "locations": {
-          "1.21-1.21.4": "mbs:entities/armor_stand_3",
-          "1.21.5-1.21.11": "mbs:1_21_5/entities/armor_stand_3",
-          "26.1-26.3": "mbs:1_21_5/entities/armor_stand_3"
+          "1.21-1.21.1": "mbs:1_21_0/entities/armor_stand_3",
+          "1.21.2-1.21.4": "mbs:1_21_2/entities/armor_stand_3",
+          "1.21.5-26.3": "mbs:1_21_5/entities/armor_stand_3"
         },
         "processors": "mbs:skip_air",
         "projection": "rigid"
