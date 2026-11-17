@@ -5,10 +5,15 @@
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:dead_house_4"
+        "location": "mbs:1_20_5/dead_house_4",
+        "locations": {
+          "1.20-1.20.1": "mbs:1_20_0/dead_house_4",
+          "1.20.2-1.20.4": "mbs:1_20_2/dead_house_4",
+          "1.20.5-1.20.6": "mbs:1_20_5/dead_house_4"
+        }
       }
     }
   ]

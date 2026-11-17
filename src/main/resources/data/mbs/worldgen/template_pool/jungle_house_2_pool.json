@@ -8,9 +8,10 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:jungle_house_2",
+        "location": "mbs:1_20_5/jungle_house_2",
         "locations": {
-          "1.20-1.20.6": "mbs:jungle_house_2"
+          "1.20-1.20.4": "mbs:1_20_0/jungle_house_2",
+          "1.20.5-1.20.6": "mbs:1_20_5/jungle_house_2"
         },
         "enhanced_terrain_adaptation": {
           "kernel_size": 24,
@@ -45,9 +46,10 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:jungle_house_3",
+        "location": "mbs:1_20_5/jungle_house_3",
         "locations": {
-          "1.20-1.20.6": "mbs:jungle_house_3"
+          "1.20-1.20.4": "mbs:1_20_0/jungle_house_3",
+          "1.20.5-1.20.6": "mbs:1_20_5/jungle_house_3"
         },
         "enhanced_terrain_adaptation": {
           "kernel_size": 24,
@@ -104,9 +106,10 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:jungle_house_5_bed",
+        "location": "mbs:1_20_5/jungle_house_5_bed",
         "locations": {
-          "1.20-1.20.6": "mbs:jungle_house_5_bed"
+          "1.20-1.20.4": "mbs:1_20_0/jungle_house_5_bed",
+          "1.20.5-1.20.6": "mbs:1_20_5/jungle_house_5_bed"
         },
         "enhanced_terrain_adaptation": {
           "kernel_size": 24,
@@ -126,9 +129,10 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:jungle_house_5_path",
+        "location": "mbs:1_20_5/jungle_house_5_path",
         "locations": {
-          "1.20-1.20.6": "mbs:jungle_house_5_path"
+          "1.20-1.20.4": "mbs:1_20_0/jungle_house_5_path",
+          "1.20.5-1.20.6": "mbs:1_20_5/jungle_house_5_path"
         },
         "enhanced_terrain_adaptation": {
           "kernel_size": 24,
@@ -148,9 +152,10 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:jungle_big_house_1",
+        "location": "mbs:1_20_5/jungle_big_house_1",
         "locations": {
-          "1.20-1.20.6": "mbs:jungle_big_house_1"
+          "1.20-1.20.4": "mbs:1_20_0/jungle_big_house_1",
+          "1.20.5-1.20.6": "mbs:1_20_5/jungle_big_house_1"
         },
         "enhanced_terrain_adaptation": {
           "kernel_size": 24,
