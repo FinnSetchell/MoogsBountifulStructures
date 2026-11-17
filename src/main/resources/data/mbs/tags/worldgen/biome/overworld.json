@@ -1,11 +1,16 @@
 {
   "values": [
+    "#minecraft:is_forest",
     {
       "id": "#forge:is_forest",
       "required": false
     },
     {
       "id": "#c:is_forest",
+      "required": false
+    },
+    {
+      "id": "#c:forest",
       "required": false
     },
     {
@@ -17,6 +22,10 @@
       "required": false
     },
     {
+      "id": "#c:plains",
+      "required": false
+    },
+    {
       "id": "#forge:is_desert",
       "required": false
     },
@@ -24,6 +33,11 @@
       "id": "#c:is_desert",
       "required": false
     },
+    {
+      "id": "#c:desert",
+      "required": false
+    },
+    "#minecraft:is_taiga",
     {
       "id": "#forge:is_taiga",
       "required": false
@@ -33,6 +47,11 @@
       "required": false
     },
     {
+      "id": "#c:taiga",
+      "required": false
+    },
+    "#minecraft:is_jungle",
+    {
       "id": "#forge:is_jungle",
       "required": false
     },
@@ -40,6 +59,11 @@
       "id": "#c:is_jungle",
       "required": false
     },
+    {
+      "id": "#c:jungle",
+      "required": false
+    },
+    "#minecraft:is_savanna",
     {
       "id": "#forge:is_savanna",
       "required": false
@@ -49,11 +73,19 @@
       "required": false
     },
     {
+      "id": "#c:savanna",
+      "required": false
+    },
+    {
       "id": "#forge:is_snowy",
       "required": false
     },
     {
       "id": "#c:is_snowy",
+      "required": false
+    },
+    {
+      "id": "#c:snowy",
       "required": false
     }
   ]

@@ -11,6 +11,10 @@
     {
       "id": "#c:is_dead",
       "required": false
+    },
+    {
+      "id": "#c:dead",
+      "required": false
     }
   ]
 }
