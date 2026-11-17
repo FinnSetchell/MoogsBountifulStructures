@@ -11,7 +11,9 @@
 - Chests that were meant to hold enchanted books, such as the abandoned house's, now give them instead of a blank book
 - The golden helmet in the nether halls' chests now comes enchanted, as it does on newer versions
 - The desert big house now has its armour stands
-- The desert big house's banners now show their patterns on Minecraft 1.20 to 1.20.4
+- Banners in the houses, item frames and the stable's chest now look right on Minecraft 1.20 to 1.20.4
+- The gold piles' armour stands now keep their armour trims on Minecraft 1.20.5 and 1.20.6
+- Tents, houses and other structures now spawn in all their biomes on Fabric and Forge
 - Magic structures no longer generate on the Nether roof
 
 ### Changed
