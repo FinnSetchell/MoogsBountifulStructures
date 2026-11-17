@@ -44,6 +44,10 @@
       {
         "id": "moogs_structures",
         "versions": ">=4.0.0"
+      },
+      {
+        "id": "biomesoplenty",
+        "versions": "*"
       }
     ]
   }

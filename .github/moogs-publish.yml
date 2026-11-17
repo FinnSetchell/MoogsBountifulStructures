@@ -18,10 +18,11 @@ discord:
   # header) -> semantically a banner. No square thumbnail exists for this mod.
   bannerUrl: "https://tools.moogsmods.com/api/img/images/602d3bf328184e8aabe3d8eba918931c.png"
   pingDefault: true
-# Required dependencies — matches the live latest versions on both branches
-# (Modrinth 1.0.10 / 1.0.5, verified 2026-07-26).
+# Required dependencies, on both targets. Biomes O' Plenty was dropped from the stores by
+# accident at 1.0.4 and is back (Finn, 2026-07-28); the mod metadata always required it.
 dependencies:
   - { modrinth: 1oUDhxuy, curseforge: moogs-structure-lib, type: required }
+  - { modrinth: HXF82T3G, curseforge: biomes-o-plenty, type: required }
 artifacts:
   - type: universal-jar
 targets:
