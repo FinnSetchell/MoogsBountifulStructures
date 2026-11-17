@@ -24,5 +24,8 @@ out/
 .DS_Store
 Thumbs.db
 
+# Python bytecode
+__pycache__/
+
 # NOTE: gradlew, gradlew.bat, and gradle/wrapper/gradle-wrapper.{jar,properties}
 # MUST be committed. Do NOT add them here - CI relies on them.
