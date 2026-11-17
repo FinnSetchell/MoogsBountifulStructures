@@ -5,28 +5,37 @@
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "terrain_matching",
         "processors": "minecraft:empty",
-        "location": "mbs:wheat_feild_tall_1"
+        "location": "mbs:wheat_feild_tall_1",
+        "locations": {
+          "1.21-26.3": "mbs:wheat_feild_tall_1"
+        }
       }
     },
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "terrain_matching",
         "processors": "minecraft:empty",
-        "location": "mbs:wheat_patch"
+        "location": "mbs:wheat_patch",
+        "locations": {
+          "1.21-26.3": "mbs:wheat_patch"
+        }
       }
     },
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "terrain_matching",
         "processors": "minecraft:empty",
-        "location": "mbs:wheat_patch_2"
+        "location": "mbs:wheat_patch_2",
+        "locations": {
+          "1.21-26.3": "mbs:wheat_patch_2"
+        }
       }
     }
   ]

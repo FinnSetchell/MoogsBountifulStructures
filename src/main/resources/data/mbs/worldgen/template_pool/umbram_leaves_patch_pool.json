@@ -5,19 +5,25 @@
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:umbram_leaves_patch"
+        "location": "mbs:umbram_leaves_patch",
+        "locations": {
+          "1.21-26.3": "mbs:umbram_leaves_patch"
+        }
       }
     },
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:umbran_tree_patch_2"
+        "location": "mbs:umbran_tree_patch_2",
+        "locations": {
+          "1.21-26.3": "mbs:umbran_tree_patch_2"
+        }
       }
     }
   ]

@@ -18,10 +18,13 @@
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "terrain_matching",
         "processors": "minecraft:empty",
-        "location": "mbs:orange_maple_patch_2"
+        "location": "mbs:orange_maple_patch_2",
+        "locations": {
+          "1.21-26.3": "mbs:orange_maple_patch_2"
+        }
       }
     }
   ]

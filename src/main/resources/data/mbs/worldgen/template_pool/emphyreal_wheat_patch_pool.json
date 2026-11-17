@@ -5,19 +5,25 @@
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:emphyreal_wheat_patch"
+        "location": "mbs:emphyreal_wheat_patch",
+        "locations": {
+          "1.21-26.3": "mbs:emphyreal_wheat_patch"
+        }
       }
     },
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:emphyreal_wheat_patch_2"
+        "location": "mbs:emphyreal_wheat_patch_2",
+        "locations": {
+          "1.21-26.3": "mbs:emphyreal_wheat_patch_2"
+        }
       }
     }
   ]
