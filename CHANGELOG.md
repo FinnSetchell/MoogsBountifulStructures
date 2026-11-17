@@ -14,6 +14,7 @@
 - The desert big house now has its armour stands
 
 ### Changed
+- Biomes O' Plenty is listed as a required dependency again on CurseForge and Modrinth
 - Now requires Moog's Structure Lib 4.0.0 or newer
 - Now needs Moog's Structure Lib 3.0.0 or newer
 
