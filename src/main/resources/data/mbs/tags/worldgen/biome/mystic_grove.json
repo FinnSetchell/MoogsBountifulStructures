@@ -1,15 +1,23 @@
 {
   "values": [
     {
-      "id": "#forge:is_magical",
-      "required": false
-    },
-    {
-      "id": "#c:is_magical",
-      "required": false
-    },
-    {
       "id": "biomesoplenty:mystic_grove",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:auroral_garden",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fungal_jungle",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jade_cliffs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:snowblossom_grove",
       "required": false
     }
   ]
