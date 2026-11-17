@@ -424,5 +424,5 @@
       ]
     }
   ],
-  "random_sequence": "minecraft:chests/bastion_treasure"
+  "random_sequence": "mbs:higher_quality_loot"
 }

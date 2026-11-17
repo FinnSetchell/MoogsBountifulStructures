@@ -320,5 +320,5 @@
       ]
     }
   ],
-  "random_sequence": "minecraft:chests/abandoned_mineshaft"
+  "random_sequence": "mbs:common_loot"
 }

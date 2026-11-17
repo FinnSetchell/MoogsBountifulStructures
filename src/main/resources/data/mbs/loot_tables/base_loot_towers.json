@@ -347,5 +347,5 @@
       ]
     }
   ],
-  "random_sequence": "minecraft:chests/bastion_bridge"
+  "random_sequence": "mbs:base_loot_towers"
 }
