@@ -1,0 +1,21 @@
+{
+  "name": "mbs:mobs/iron_golem",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mbs:1_21_11/mobs/iron_golem",
+        "locations": {
+          "1.21-1.21.1": "mbs:1_21_0/mobs/iron_golem",
+          "1.21.2-1.21.4": "mbs:1_21_2/mobs/iron_golem",
+          "1.21.5-1.21.10": "mbs:1_21_5/mobs/iron_golem",
+          "1.21.11-26.3": "mbs:1_21_11/mobs/iron_golem"
+        },
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    }
+  ]
+}
