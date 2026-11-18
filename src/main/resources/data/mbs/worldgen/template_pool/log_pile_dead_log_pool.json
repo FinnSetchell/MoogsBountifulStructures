@@ -8,9 +8,9 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:log_pile_dead_log",
+        "location": "mbs:1_21_0/log_pile_dead_log",
         "locations": {
-          "1.21-26.3": "mbs:log_pile_dead_log"
+          "1.21-26.3": "mbs:1_21_0/log_pile_dead_log"
         }
       }
     }

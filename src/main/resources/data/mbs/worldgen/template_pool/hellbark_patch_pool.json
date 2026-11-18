@@ -8,9 +8,9 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "mbs:follow_floor",
-        "location": "mbs:hellbark_patch",
+        "location": "mbs:1_21_0/hellbark_patch",
         "locations": {
-          "1.21-26.3": "mbs:hellbark_patch"
+          "1.21-26.3": "mbs:1_21_0/hellbark_patch"
         }
       }
     }

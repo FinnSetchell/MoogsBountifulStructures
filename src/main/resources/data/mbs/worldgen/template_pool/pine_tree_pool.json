@@ -8,9 +8,9 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:pine_tree",
+        "location": "mbs:1_21_0/pine_tree",
         "locations": {
-          "1.21-26.3": "mbs:pine_tree"
+          "1.21-26.3": "mbs:1_21_0/pine_tree"
         }
       }
     },
@@ -20,9 +20,9 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:pine_tree_2",
+        "location": "mbs:1_21_0/pine_tree_2",
         "locations": {
-          "1.21-26.3": "mbs:pine_tree_2"
+          "1.21-26.3": "mbs:1_21_0/pine_tree_2"
         }
       }
     }

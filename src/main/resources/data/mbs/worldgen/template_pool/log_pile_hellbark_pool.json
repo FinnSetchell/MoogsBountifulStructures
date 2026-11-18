@@ -8,9 +8,9 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:log_pile_hellbark",
+        "location": "mbs:1_21_0/log_pile_hellbark",
         "locations": {
-          "1.21-26.3": "mbs:log_pile_hellbark"
+          "1.21-26.3": "mbs:1_21_0/log_pile_hellbark"
         }
       }
     }

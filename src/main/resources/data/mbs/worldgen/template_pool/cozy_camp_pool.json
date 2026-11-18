@@ -8,9 +8,9 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:cozy_camp",
+        "location": "mbs:1_21_0/cozy_camp",
         "locations": {
-          "1.21-26.3": "mbs:cozy_camp"
+          "1.21-26.3": "mbs:1_21_0/cozy_camp"
         }
       }
     }

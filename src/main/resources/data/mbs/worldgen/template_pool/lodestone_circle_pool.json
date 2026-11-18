@@ -8,9 +8,9 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:lodestone_circle",
+        "location": "mbs:1_21_0/lodestone_circle",
         "locations": {
-          "1.21-26.3": "mbs:lodestone_circle"
+          "1.21-26.3": "mbs:1_21_0/lodestone_circle"
         },
         "enhanced_terrain_adaptation": {
           "kernel_size": 24,

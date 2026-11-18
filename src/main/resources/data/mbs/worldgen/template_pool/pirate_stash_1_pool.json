@@ -8,9 +8,9 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:pirate_stash_1",
+        "location": "mbs:1_21_0/pirate_stash_1",
         "locations": {
-          "1.21-26.3": "mbs:pirate_stash_1"
+          "1.21-26.3": "mbs:1_21_0/pirate_stash_1"
         }
       }
     },
@@ -20,9 +20,9 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:pirate_stash_big_2",
+        "location": "mbs:1_21_0/pirate_stash_big_2",
         "locations": {
-          "1.21-26.3": "mbs:pirate_stash_big_2"
+          "1.21-26.3": "mbs:1_21_0/pirate_stash_big_2"
         }
       }
     }

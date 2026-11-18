@@ -8,9 +8,9 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:abandoned_house",
+        "location": "mbs:1_21_0/abandoned_house",
         "locations": {
-          "1.21-26.3": "mbs:abandoned_house"
+          "1.21-26.3": "mbs:1_21_0/abandoned_house"
         },
         "enhanced_terrain_adaptation": {
           "kernel_size": 24,

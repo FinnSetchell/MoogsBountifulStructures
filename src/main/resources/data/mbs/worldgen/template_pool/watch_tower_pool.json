@@ -8,9 +8,10 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:watch_tower",
+        "location": "mbs:1_21_4/watch_tower",
         "locations": {
-          "1.21-26.3": "mbs:watch_tower"
+          "1.21-1.21.3": "mbs:1_21_0/watch_tower",
+          "1.21.4-26.3": "mbs:1_21_4/watch_tower"
         }
       }
     }

@@ -8,9 +8,9 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:desert_campfire_1",
+        "location": "mbs:1_21_0/desert_campfire_1",
         "locations": {
-          "1.21-26.3": "mbs:desert_campfire_1"
+          "1.21-26.3": "mbs:1_21_0/desert_campfire_1"
         }
       }
     },
@@ -20,9 +20,9 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:desert_campfire_2",
+        "location": "mbs:1_21_0/desert_campfire_2",
         "locations": {
-          "1.21-26.3": "mbs:desert_campfire_2"
+          "1.21-26.3": "mbs:1_21_0/desert_campfire_2"
         }
       }
     },
@@ -32,9 +32,9 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:desert_campfire_3",
+        "location": "mbs:1_21_0/desert_campfire_3",
         "locations": {
-          "1.21-26.3": "mbs:desert_campfire_3"
+          "1.21-26.3": "mbs:1_21_0/desert_campfire_3"
         }
       }
     }

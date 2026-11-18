@@ -8,9 +8,9 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "terrain_matching",
         "processors": "minecraft:empty",
-        "location": "mbs:rock_pile",
+        "location": "mbs:1_21_0/rock_pile",
         "locations": {
-          "1.21-26.3": "mbs:rock_pile"
+          "1.21-26.3": "mbs:1_21_0/rock_pile"
         }
       }
     },
@@ -20,9 +20,9 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "terrain_matching",
         "processors": "minecraft:empty",
-        "location": "mbs:rock_pile_2",
+        "location": "mbs:1_21_0/rock_pile_2",
         "locations": {
-          "1.21-26.3": "mbs:rock_pile_2"
+          "1.21-26.3": "mbs:1_21_0/rock_pile_2"
         }
       }
     },
@@ -32,9 +32,9 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "terrain_matching",
         "processors": "minecraft:empty",
-        "location": "mbs:rock_pile_3",
+        "location": "mbs:1_21_0/rock_pile_3",
         "locations": {
-          "1.21-26.3": "mbs:rock_pile_3"
+          "1.21-26.3": "mbs:1_21_0/rock_pile_3"
         }
       }
     },
@@ -44,9 +44,9 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "terrain_matching",
         "processors": "minecraft:empty",
-        "location": "mbs:rock_pile_4",
+        "location": "mbs:1_21_0/rock_pile_4",
         "locations": {
-          "1.21-26.3": "mbs:rock_pile_4"
+          "1.21-26.3": "mbs:1_21_0/rock_pile_4"
         }
       }
     },
@@ -56,9 +56,9 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "terrain_matching",
         "processors": "minecraft:empty",
-        "location": "mbs:rock_pile_5",
+        "location": "mbs:1_21_0/rock_pile_5",
         "locations": {
-          "1.21-26.3": "mbs:rock_pile_5"
+          "1.21-26.3": "mbs:1_21_0/rock_pile_5"
         }
       }
     },
@@ -68,9 +68,9 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "terrain_matching",
         "processors": "minecraft:empty",
-        "location": "mbs:rock_pile_6",
+        "location": "mbs:1_21_0/rock_pile_6",
         "locations": {
-          "1.21-26.3": "mbs:rock_pile_6"
+          "1.21-26.3": "mbs:1_21_0/rock_pile_6"
         }
       }
     },
@@ -80,9 +80,9 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "terrain_matching",
         "processors": "minecraft:empty",
-        "location": "mbs:rock_pile_7",
+        "location": "mbs:1_21_0/rock_pile_7",
         "locations": {
-          "1.21-26.3": "mbs:rock_pile_7"
+          "1.21-26.3": "mbs:1_21_0/rock_pile_7"
         }
       }
     },
@@ -92,9 +92,9 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "terrain_matching",
         "processors": "minecraft:empty",
-        "location": "mbs:rock_pile_8",
+        "location": "mbs:1_21_0/rock_pile_8",
         "locations": {
-          "1.21-26.3": "mbs:rock_pile_8"
+          "1.21-26.3": "mbs:1_21_0/rock_pile_8"
         }
       }
     }

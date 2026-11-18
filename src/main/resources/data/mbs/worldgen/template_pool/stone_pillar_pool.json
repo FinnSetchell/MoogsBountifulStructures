@@ -8,9 +8,9 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "terrain_matching",
         "processors": "minecraft:empty",
-        "location": "mbs:stone_pillar",
+        "location": "mbs:1_21_0/stone_pillar",
         "locations": {
-          "1.21-26.3": "mbs:stone_pillar"
+          "1.21-26.3": "mbs:1_21_0/stone_pillar"
         }
       }
     },
@@ -20,9 +20,9 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "terrain_matching",
         "processors": "minecraft:empty",
-        "location": "mbs:stone_pillar_2",
+        "location": "mbs:1_21_0/stone_pillar_2",
         "locations": {
-          "1.21-26.3": "mbs:stone_pillar_2"
+          "1.21-26.3": "mbs:1_21_0/stone_pillar_2"
         }
       }
     }
