@@ -8,9 +8,9 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:dead_tree_patch",
+        "location": "mbs:1_20_0/dead_tree_patch",
         "locations": {
-          "1.20-1.20.6": "mbs:dead_tree_patch"
+          "1.20-1.20.6": "mbs:1_20_0/dead_tree_patch"
         }
       }
     },
@@ -20,9 +20,9 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:dead_tree_patch_2",
+        "location": "mbs:1_20_0/dead_tree_patch_2",
         "locations": {
-          "1.20-1.20.6": "mbs:dead_tree_patch_2"
+          "1.20-1.20.6": "mbs:1_20_0/dead_tree_patch_2"
         }
       }
     }

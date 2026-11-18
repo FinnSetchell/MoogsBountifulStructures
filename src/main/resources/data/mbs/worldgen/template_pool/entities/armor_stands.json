@@ -2,33 +2,39 @@
   "elements": [
     {
       "element": {
-        "element_type": "minecraft:legacy_single_pool_element",
-        "location": "mbs:entities/armor_stand_1",
-        "processors": {
-          "processors": []
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mbs:1_20_5/entities/armor_stand_1",
+        "locations": {
+          "1.20-1.20.4": "mbs:1_20_0/entities/armor_stand_1",
+          "1.20.5-1.20.6": "mbs:1_20_5/entities/armor_stand_1"
         },
+        "processors": "mbs:skip_air",
         "projection": "rigid"
       },
       "weight": 4
     },
     {
       "element": {
-        "element_type": "minecraft:legacy_single_pool_element",
-        "location": "mbs:entities/armor_stand_2",
-        "processors": {
-          "processors": []
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mbs:1_20_5/entities/armor_stand_2",
+        "locations": {
+          "1.20-1.20.4": "mbs:1_20_0/entities/armor_stand_2",
+          "1.20.5-1.20.6": "mbs:1_20_5/entities/armor_stand_2"
         },
+        "processors": "mbs:skip_air",
         "projection": "rigid"
       },
       "weight": 3
     },
     {
       "element": {
-        "element_type": "minecraft:legacy_single_pool_element",
-        "location": "mbs:entities/armor_stand_3",
-        "processors": {
-          "processors": []
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mbs:1_20_5/entities/armor_stand_3",
+        "locations": {
+          "1.20-1.20.4": "mbs:1_20_0/entities/armor_stand_3",
+          "1.20.5-1.20.6": "mbs:1_20_5/entities/armor_stand_3"
         },
+        "processors": "mbs:skip_air",
         "projection": "rigid"
       },
       "weight": 2

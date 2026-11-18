@@ -8,9 +8,9 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:bone_remains_1",
+        "location": "mbs:1_20_0/bone_remains_1",
         "locations": {
-          "1.20-1.20.6": "mbs:bone_remains_1"
+          "1.20-1.20.6": "mbs:1_20_0/bone_remains_1"
         }
       }
     },
@@ -20,9 +20,9 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:bone_remains_2",
+        "location": "mbs:1_20_0/bone_remains_2",
         "locations": {
-          "1.20-1.20.6": "mbs:bone_remains_2"
+          "1.20-1.20.6": "mbs:1_20_0/bone_remains_2"
         }
       }
     },
@@ -32,9 +32,9 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:bone_remains_3",
+        "location": "mbs:1_20_0/bone_remains_3",
         "locations": {
-          "1.20-1.20.6": "mbs:bone_remains_3"
+          "1.20-1.20.6": "mbs:1_20_0/bone_remains_3"
         }
       }
     }

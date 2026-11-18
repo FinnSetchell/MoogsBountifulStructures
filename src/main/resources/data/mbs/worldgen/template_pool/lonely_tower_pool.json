@@ -8,9 +8,9 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "mbs:lonely_tower",
+        "location": "mbs:1_20_0/lonely_tower",
         "locations": {
-          "1.20-1.20.6": "mbs:lonely_tower"
+          "1.20-1.20.6": "mbs:1_20_0/lonely_tower"
         }
       }
     }
