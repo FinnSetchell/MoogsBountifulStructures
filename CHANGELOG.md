@@ -14,6 +14,7 @@
 - Chests that were meant to hold enchanted books, such as the abandoned house's, now give them instead of a blank book
 - The desert big house now has its armour stands
 - Magic structures no longer generate on the Nether roof
+- Dead forest structures are easier to find and also appear in old growth dead forests
 - The Hell Well no longer has a strip of yellow concrete along its bottom
 
 ### Changed
