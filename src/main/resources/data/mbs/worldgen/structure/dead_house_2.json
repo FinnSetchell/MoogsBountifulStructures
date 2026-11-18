@@ -12,5 +12,6 @@
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
   "terrain_height_radius_check": 2,
   "allowed_terrain_height_range": 4,
+  "valid_biome_radius_check": 1,
   "biomes": "#mbs:light_gray_tents"
 }
