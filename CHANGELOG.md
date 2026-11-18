@@ -15,6 +15,7 @@
 - The gold piles' armour stands now keep their armour trims on Minecraft 1.20.5 and 1.20.6
 - Tents, houses and other structures now spawn in all their biomes on Fabric and Forge
 - Magic structures no longer generate on the Nether roof
+- Dead forest structures are easier to find and also appear in old growth dead forests
 
 ### Changed
 - Biomes O' Plenty is listed as a required dependency again on CurseForge and Modrinth
