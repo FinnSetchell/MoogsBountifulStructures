@@ -5,10 +5,11 @@
     {
       "weight": 1,
       "element": {
-        "location": "mbs:1_21_5/big_pale_house_1",
+        "location": "mbs:26_3_0/big_pale_house_1",
         "locations": {
           "1.21-1.21.4": "mbs:1_21_0/big_pale_house_1",
-          "1.21.5-26.3": "mbs:1_21_5/big_pale_house_1"
+          "1.21.5-26.2": "mbs:1_21_5/big_pale_house_1",
+          "26.3": "mbs:26_3_0/big_pale_house_1"
         },
         "processors": "minecraft:empty",
         "projection": "rigid",

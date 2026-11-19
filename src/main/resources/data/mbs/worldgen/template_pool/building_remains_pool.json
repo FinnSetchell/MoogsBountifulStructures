@@ -6,10 +6,11 @@
       "weight": 1,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
-        "location": "mbs:1_21_5/building_remains",
+        "location": "mbs:26_3_0/building_remains",
         "locations": {
           "1.21-1.21.4": "mbs:1_21_0/building_remains",
-          "1.21.5-26.3": "mbs:1_21_5/building_remains"
+          "1.21.5-26.2": "mbs:1_21_5/building_remains",
+          "26.3": "mbs:26_3_0/building_remains"
         },
         "processors": "minecraft:empty",
         "projection": "terrain_matching"

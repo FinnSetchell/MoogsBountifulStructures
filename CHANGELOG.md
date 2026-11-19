@@ -16,6 +16,7 @@
 - Magic structures no longer generate on the Nether roof
 - Dead forest structures are easier to find and also appear in old growth dead forests
 - The Hell Well no longer has a strip of yellow concrete along its bottom
+- Chests in the big houses and the building remains that couldn't be opened are now barrels
 
 ### Changed
 - Biomes O' Plenty is listed as a required dependency again on CurseForge and Modrinth
